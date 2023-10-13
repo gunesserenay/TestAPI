@@ -4,7 +4,7 @@ using Test_API.Models;
 
 namespace Test_API.Controllers
 {
-    [Route("api/VillaAPI")]
+    [Route("api/[controller]")]
     [ApiController]
     public class VillaAPIController : ControllerBase
     {
