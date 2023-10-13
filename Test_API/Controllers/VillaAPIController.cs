@@ -16,6 +16,13 @@ namespace Test_API.Controllers
         {
             return VillaStore.VillaList; 
         }
+
+      //  [HttpGet("id")]
+        [HttpGet("{id:int}")]
+        public VillaDTO GetVilla(int id)
+        {
+            return VillaStore.VillaList.FirstOrDefault(x=>x.Id==id);
+        }
     }
 }
 
