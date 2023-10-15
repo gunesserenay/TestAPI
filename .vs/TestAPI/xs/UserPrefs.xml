@@ -2,14 +2,28 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Test__API FirstBuild="True" PreferredExecutionTarget="/Applications/Opera.app" />
+  <MonoDevelop.Ide.ItemProperties.Test__API PreferredExecutionTarget="/Applications/Opera.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_API/Controllers/VillaAPIController.cs">
+    <Files>
+      <File FileName="Test_API/Controllers/VillaAPIController.cs" Line="16" Column="10" />
+      <File FileName="Test_API/Models/Villa.cs" Line="8" Column="44" />
+      <File FileName="Test_API/Models/Dto/VillaDTO.cs" Line="7" Column="41" />
+      <File FileName="Test_API/Data/VillaStore.cs" Line="15" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TestAPI" expanded="True" selected="True" />
+          <Node name="TestAPI" expanded="True">
+            <Node name="Test_API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Dto" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
