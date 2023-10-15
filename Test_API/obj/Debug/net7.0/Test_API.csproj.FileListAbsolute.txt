@@ -31,3 +31,7 @@
 /Users/development1001/Projects/TestAPI/Test_API/obj/Debug/net7.0/Test_API.pdb
 /Users/development1001/Projects/TestAPI/Test_API/obj/Debug/net7.0/Test_API.genruntimeconfig.cache
 /Users/development1001/Projects/TestAPI/Test_API/obj/Debug/net7.0/ref/Test_API.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
