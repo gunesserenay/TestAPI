@@ -19,7 +19,7 @@ namespace Test_API.Controllers
         }
 
         //  [HttpGet("id")]
-        [HttpGet("{id:int}")]
+        [HttpGet("{id:int}",Name ="GetVilla")]
         //[ProducesResponseType(200)]
         //[ProducesResponseType(400)]
         //[ProducesResponseType(404)]
@@ -41,7 +41,7 @@ namespace Test_API.Controllers
             return Ok();
         }
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult<VillaDTO> CreateVilla([FromBody]VillaDTO villaDTO)
@@ -58,7 +58,7 @@ namespace Test_API.Controllers
 
             villaDTO.Id = VillaStore.VillaList.OrderByDescending(u => u.Id).FirstOrDefault().Id+1;
             VillaStore.VillaList.Add(villaDTO);
-            return Ok(villaDTO);
+            return CreatedAtRoute("GetVilla",new {id=villaDTO.Id },villaDTO);
         }
     }
 }
