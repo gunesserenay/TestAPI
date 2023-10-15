@@ -19,7 +19,7 @@ namespace Test_API.Controllers
         }
 
         //  [HttpGet("id")]
-        [HttpGet("{id:int}",Name ="GetVilla")]
+        [HttpGet("{id:int}", Name = "GetVilla")]
         //[ProducesResponseType(200)]
         //[ProducesResponseType(400)]
         //[ProducesResponseType(404)]
@@ -44,21 +44,30 @@ namespace Test_API.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public ActionResult<VillaDTO> CreateVilla([FromBody]VillaDTO villaDTO)
+        public ActionResult<VillaDTO> CreateVilla([FromBody] VillaDTO villaDTO)
         {
-            if (villaDTO==null)
+            //if (!ModelState.IsValid)
+            //{
+            //    return BadRequest(villaDTO);
+            //}
+            if (VillaStore.VillaList.FirstOrDefault(u => u.Name.ToLower() == villaDTO.Name.ToLower()) != null)
+            {
+                ModelState.AddModelError("CustomError", "Villa already Exists");
+                return BadRequest(ModelState);
+            }
+            if (villaDTO == null)
             {
                 return BadRequest(villaDTO);
             }
 
-            if (villaDTO.Id>0)
+            if (villaDTO.Id > 0)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError);
             }
 
-            villaDTO.Id = VillaStore.VillaList.OrderByDescending(u => u.Id).FirstOrDefault().Id+1;
+            villaDTO.Id = VillaStore.VillaList.OrderByDescending(u => u.Id).FirstOrDefault().Id + 1;
             VillaStore.VillaList.Add(villaDTO);
-            return CreatedAtRoute("GetVilla",new {id=villaDTO.Id },villaDTO);
+            return CreatedAtRoute("GetVilla", new { id = villaDTO.Id }, villaDTO);
         }
     }
 }
