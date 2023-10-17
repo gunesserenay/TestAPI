@@ -35,3 +35,13 @@
 /Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Serilog.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Serilog.AspNetCore.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Serilog.Extensions.Hosting.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Serilog.Extensions.Logging.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Serilog.Formatting.Compact.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Serilog.Settings.Configuration.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Serilog.Sinks.Console.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Serilog.Sinks.Debug.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Serilog.Sinks.File.dll
