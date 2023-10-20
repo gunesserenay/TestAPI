@@ -1,0 +1,422 @@
+2023-10-20 22:56:00.644 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-20 22:56:00.823 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-20 22:56:00.878 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-20 23:05:35.229 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-20 23:05:35.415 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-20 23:05:35.421 +03:00 [DBG] Creating DbConnection.
+2023-10-20 23:05:35.440 +03:00 [DBG] Created DbConnection. (17ms).
+2023-10-20 23:05:35.442 +03:00 [DBG] Migrating using database 'Test_VillaAPI' on server '.'.
+2023-10-20 23:05:35.443 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server '.'.
+2023-10-20 23:05:35.523 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server '.'.
+2023-10-20 23:05:35.525 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-20 23:05:35.526 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server '.'.
+2023-10-20 23:05:35.527 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-20 23:08:29.717 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-20 23:08:29.902 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-20 23:08:29.909 +03:00 [DBG] Creating DbConnection.
+2023-10-20 23:08:29.922 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-20 23:09:00.593 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-20 23:09:00.776 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-20 23:09:00.783 +03:00 [DBG] Creating DbConnection.
+2023-10-20 23:09:00.797 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-20 23:09:19.150 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-20 23:09:19.327 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-20 23:09:19.334 +03:00 [DBG] Creating DbConnection.
+2023-10-20 23:09:19.349 +03:00 [DBG] Created DbConnection. (13ms).
+2023-10-20 23:09:19.350 +03:00 [DBG] Migrating using database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:09:19.352 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:09:20.100 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:09:20.103 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-20 23:09:20.105 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:09:20.108 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-20 23:18:39.978 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-20 23:18:40.153 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-20 23:18:40.159 +03:00 [DBG] Creating DbConnection.
+2023-10-20 23:18:40.177 +03:00 [DBG] Created DbConnection. (17ms).
+2023-10-20 23:18:40.178 +03:00 [DBG] Migrating using database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:40.180 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:40.290 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:40.796 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:40.838 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:41.341 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:41.374 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:41.880 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:41.917 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:42.422 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:42.462 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:42.965 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:42.992 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:43.498 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:43.538 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:44.043 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:44.075 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:44.579 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:44.603 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:45.108 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:45.146 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:45.652 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:45.694 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:46.200 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:46.239 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:46.744 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:46.780 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:47.282 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:47.320 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:47.825 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:47.866 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:48.371 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:48.406 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:48.912 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:48.944 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:49.448 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:49.487 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:49.990 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:50.023 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:50.529 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:50.568 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:51.070 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:51.103 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:51.608 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:51.636 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:52.141 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:52.167 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:52.672 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:52.698 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:53.203 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:53.238 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:53.742 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:53.779 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:54.285 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:54.325 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:54.830 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:54.870 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:55.375 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:55.406 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:55.912 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:55.952 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:56.458 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:56.486 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:56.991 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:57.023 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:57.528 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:57.570 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:58.074 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:58.118 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:58.619 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:58.662 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:59.167 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:59.203 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:59.708 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:18:59.748 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:00.252 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:00.295 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:00.798 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:00.837 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:01.343 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:01.366 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:01.869 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:01.914 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:02.414 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:02.452 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:02.954 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:02.991 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:03.496 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:03.544 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:04.049 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:04.082 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:04.588 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:04.613 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:05.115 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:05.154 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:05.659 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:05.705 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:06.210 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:06.250 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:06.753 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:06.797 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:07.301 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:07.341 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:07.846 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:07.894 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:08.399 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:08.448 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:08.953 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:08.989 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:09.495 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:09.521 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:10.026 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:10.068 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:10.573 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:10.621 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:11.124 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:11.155 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:11.659 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:11.704 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:12.209 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:12.252 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:12.754 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:12.786 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:13.292 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:13.326 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:13.831 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:13.878 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:14.381 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:14.422 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:14.927 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:14.970 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:15.476 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:15.525 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:16.029 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:16.073 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:16.578 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:16.618 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:17.124 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:17.168 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:17.674 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:17.720 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:18.222 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:18.261 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:18.766 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:18.802 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:19.308 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:19.356 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:19.859 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:19.900 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:20.402 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:20.434 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:20.937 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:20.979 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:21.480 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:21.523 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:22.029 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:22.073 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:22.578 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:22.622 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:23.126 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:23.149 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:23.653 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:23.695 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:24.196 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:24.238 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:24.740 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:24.782 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:25.283 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:25.316 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:25.820 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:25.863 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:26.368 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:26.411 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:26.917 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:26.960 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:27.465 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:27.510 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:28.013 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:28.055 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:28.556 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:28.592 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:29.098 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:29.131 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:29.635 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:29.667 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:30.172 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:30.215 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:30.716 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:30.757 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:31.261 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:31.302 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:31.807 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:31.845 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:32.348 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:32.385 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:32.886 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:32.918 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:33.422 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:33.461 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:33.964 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:34.010 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:34.512 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:34.552 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:35.058 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:35.103 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:35.604 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:35.647 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:36.151 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:36.196 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:36.702 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:36.739 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:37.244 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:37.291 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:37.797 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:37.841 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:38.346 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:38.392 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:38.897 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:38.941 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:39.444 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:39.474 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:39.979 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:40.029 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:40.531 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:40.575 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:40.582 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-20 23:19:40.585 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:19:40.592 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-10-20 23:21:47.222 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-20 23:21:47.398 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-20 23:21:47.404 +03:00 [DBG] Creating DbConnection.
+2023-10-20 23:21:47.421 +03:00 [DBG] Created DbConnection. (15ms).
+2023-10-20 23:21:47.422 +03:00 [DBG] Migrating using database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:47.424 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:47.536 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:47.536 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:47.537 +03:00 [DBG] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:47.553 +03:00 [DBG] Creating DbConnection.
+2023-10-20 23:21:47.553 +03:00 [DBG] Created DbConnection. (0ms).
+2023-10-20 23:21:47.553 +03:00 [DBG] Opening connection to database 'master' on server 'localhost'.
+2023-10-20 23:21:47.581 +03:00 [DBG] Opened connection to database 'master' on server 'localhost'.
+2023-10-20 23:21:47.583 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-20 23:21:47.585 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2023-10-20 23:21:47.586 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2023-10-20 23:21:47.588 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Test_VillaAPI];
+2023-10-20 23:21:48.029 +03:00 [INF] Executed DbCommand (441ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Test_VillaAPI];
+2023-10-20 23:21:48.029 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-20 23:21:48.029 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.029 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.029 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Test_VillaAPI] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-10-20 23:21:48.193 +03:00 [INF] Executed DbCommand (164ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Test_VillaAPI] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-10-20 23:21:48.194 +03:00 [DBG] Closing connection to database 'master' on server 'localhost'.
+2023-10-20 23:21:48.203 +03:00 [DBG] Closed connection to database 'master' on server 'localhost' (6ms).
+2023-10-20 23:21:48.204 +03:00 [DBG] Disposing connection to database 'master' on server 'localhost'.
+2023-10-20 23:21:48.205 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-20 23:21:48.205 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.214 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.214 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-20 23:21:48.214 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.214 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.214 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-20 23:21:48.218 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-20 23:21:48.219 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.219 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-20 23:21:48.245 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-20 23:21:48.245 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.245 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.245 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.245 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.245 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-10-20 23:21:48.253 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-10-20 23:21:48.253 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.253 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-20 23:21:48.253 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.253 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.253 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-20 23:21:48.253 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.253 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.253 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-20 23:21:48.254 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-20 23:21:48.254 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.254 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-20 23:21:48.255 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-10-20 23:21:48.256 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-10-20 23:21:48.256 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-10-20 23:21:48.256 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.256 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.256 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-20 23:21:48.263 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-20 23:21:48.263 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.263 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-20 23:21:48.264 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-20 23:21:48.264 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-20 23:21:48.264 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-20 23:21:48.264 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.264 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.264 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-10-20 23:21:48.267 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-10-20 23:21:48.268 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.268 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 0ms reading results.
+2023-10-20 23:21:48.268 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.268 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-20 23:21:48.272 +03:00 [INF] Applying migration '20231020195600_AddVillaTable'.
+2023-10-20 23:21:48.279 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.280 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.280 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-10-20 23:21:48.284 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-10-20 23:21:48.284 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-20 23:21:48.284 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.285 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.285 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Villas] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Details] nvarchar(max) NOT NULL,
+    [Rate] float NOT NULL,
+    [Sqft] int NOT NULL,
+    [Occupancy] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [Amenity] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Villas] PRIMARY KEY ([Id])
+);
+2023-10-20 23:21:48.288 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Villas] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Details] nvarchar(max) NOT NULL,
+    [Rate] float NOT NULL,
+    [Sqft] int NOT NULL,
+    [Occupancy] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [Amenity] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Villas] PRIMARY KEY ([Id])
+);
+2023-10-20 23:21:48.288 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-20 23:21:48.288 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.288 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-20 23:21:48.288 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231020195600_AddVillaTable', N'7.0.12');
+2023-10-20 23:21:48.291 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231020195600_AddVillaTable', N'7.0.12');
+2023-10-20 23:21:48.292 +03:00 [DBG] Committing transaction.
+2023-10-20 23:21:48.295 +03:00 [DBG] Committed transaction.
+2023-10-20 23:21:48.296 +03:00 [DBG] Disposing transaction.
+2023-10-20 23:21:48.296 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.296 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-20 23:21:48.297 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-20 23:21:48.297 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-20 23:21:48.297 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
