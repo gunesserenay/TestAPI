@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Test_API.Data;
 using Test_API.Models;
 using Test_API.Models.Dto;
@@ -158,7 +159,8 @@ namespace Test_API.Controllers
                 return BadRequest();
             }
 
-            var villa = _db.Villas.FirstOrDefault(x => x.Id == id);
+            var villa = _db.Villas.AsNoTracking().FirstOrDefault(x => x.Id == id);
+
             VillaDTO villaDTO = new()
             {
                 Amenity = villa.Amenity,
