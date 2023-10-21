@@ -1,0 +1,208 @@
+2023-10-21 20:03:20.821 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-21 20:03:21.012 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-21 20:03:21.074 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-21 20:10:09.320 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-21 20:10:09.522 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-21 20:10:09.531 +03:00 [DBG] Creating DbConnection.
+2023-10-21 20:10:09.550 +03:00 [DBG] Created DbConnection. (18ms).
+2023-10-21 20:10:09.552 +03:00 [DBG] Migrating using database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.554 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.651 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.653 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-21 20:10:09.655 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2023-10-21 20:10:09.656 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2023-10-21 20:10:09.658 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-21 20:10:09.675 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-21 20:10:09.675 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.679 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (1ms).
+2023-10-21 20:10:09.680 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-10-21 20:10:09.680 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-10-21 20:10:09.680 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-10-21 20:10:09.680 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.680 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.680 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-21 20:10:09.691 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-21 20:10:09.691 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.691 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-21 20:10:09.691 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.691 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.691 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-21 20:10:09.691 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-21 20:10:09.691 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-21 20:10:09.691 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-21 20:10:09.694 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-21 20:10:09.694 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.694 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-21 20:10:09.694 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-10-21 20:10:09.694 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-10-21 20:10:09.694 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-10-21 20:10:09.694 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.694 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.694 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-21 20:10:09.696 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-21 20:10:09.696 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.696 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-21 20:10:09.704 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-21 20:10:09.704 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-21 20:10:09.704 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-21 20:10:09.704 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.704 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.704 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-10-21 20:10:09.716 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-10-21 20:10:09.717 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.717 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 0ms reading results.
+2023-10-21 20:10:09.718 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.718 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-21 20:10:09.721 +03:00 [INF] Applying migration '20231021170321_SeedVillaTable'.
+2023-10-21 20:10:09.727 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.727 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.727 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-10-21 20:10:09.732 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-10-21 20:10:09.732 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-21 20:10:09.732 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-21 20:10:09.733 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-21 20:10:09.733 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231021170321_SeedVillaTable', N'7.0.12');
+2023-10-21 20:10:09.742 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231021170321_SeedVillaTable', N'7.0.12');
+2023-10-21 20:10:09.742 +03:00 [DBG] Committing transaction.
+2023-10-21 20:10:09.748 +03:00 [DBG] Committed transaction.
+2023-10-21 20:10:09.748 +03:00 [DBG] Disposing transaction.
+2023-10-21 20:10:09.748 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.749 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-21 20:10:09.749 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-21 20:10:09.750 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:10:09.750 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-21 20:15:46.896 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-21 20:15:47.091 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-21 20:15:47.167 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-21 20:17:09.165 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-21 20:17:09.361 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-21 20:17:09.368 +03:00 [DBG] Creating DbConnection.
+2023-10-21 20:17:09.383 +03:00 [DBG] Created DbConnection. (13ms).
+2023-10-21 20:17:09.384 +03:00 [DBG] Migrating using database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.386 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.489 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.491 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-21 20:17:09.493 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2023-10-21 20:17:09.494 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2023-10-21 20:17:09.496 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-21 20:17:09.513 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-21 20:17:09.514 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.517 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (1ms).
+2023-10-21 20:17:09.518 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-10-21 20:17:09.518 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-10-21 20:17:09.518 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-10-21 20:17:09.518 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.519 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.519 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-21 20:17:09.528 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-21 20:17:09.528 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.528 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-21 20:17:09.528 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.528 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.528 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-21 20:17:09.528 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-21 20:17:09.528 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-21 20:17:09.528 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-21 20:17:09.532 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-21 20:17:09.532 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.532 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-21 20:17:09.532 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-10-21 20:17:09.532 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-10-21 20:17:09.532 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-10-21 20:17:09.532 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.532 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.532 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-21 20:17:09.535 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-21 20:17:09.535 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.535 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-21 20:17:09.543 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-21 20:17:09.543 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-21 20:17:09.543 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-21 20:17:09.543 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.543 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.544 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-10-21 20:17:09.547 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-10-21 20:17:09.548 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.549 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 1ms reading results.
+2023-10-21 20:17:09.549 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.549 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-21 20:17:09.553 +03:00 [INF] Applying migration '20231021171547_SeedVillaTableCreatedDate'.
+2023-10-21 20:17:09.566 +03:00 [DBG] Executing 5 update commands as a batch.
+2023-10-21 20:17:09.569 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.570 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.570 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-10-21 20:17:09.574 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-10-21 20:17:09.574 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-21 20:17:09.574 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-21 20:17:09.575 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-21 20:17:09.575 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] ON;
+INSERT INTO [Villas] ([Id], [Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+VALUES (1, N'', '2023-10-21T20:15:47.0986770+03:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa3.jpg', N'Royal Villa', 4, 200.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(2, N'', '2023-10-21T20:15:47.0986810+03:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa1.jpg', N'Premium Pool Villa', 4, 300.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(3, N'', '2023-10-21T20:15:47.0986810+03:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa4.jpg', N'Luxury Pool Villa', 4, 400.0E0, 750, '0001-01-01T00:00:00.0000000'),
+(4, N'', '2023-10-21T20:15:47.0986810+03:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa5.jpg', N'Diamond Villa', 4, 550.0E0, 900, '0001-01-01T00:00:00.0000000'),
+(5, N'', '2023-10-21T20:15:47.0986810+03:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa2.jpg', N'Diamond Pool Villa', 4, 600.0E0, 1100, '0001-01-01T00:00:00.0000000');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] OFF;
+2023-10-21 20:17:09.618 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] ON;
+INSERT INTO [Villas] ([Id], [Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+VALUES (1, N'', '2023-10-21T20:15:47.0986770+03:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa3.jpg', N'Royal Villa', 4, 200.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(2, N'', '2023-10-21T20:15:47.0986810+03:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa1.jpg', N'Premium Pool Villa', 4, 300.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(3, N'', '2023-10-21T20:15:47.0986810+03:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa4.jpg', N'Luxury Pool Villa', 4, 400.0E0, 750, '0001-01-01T00:00:00.0000000'),
+(4, N'', '2023-10-21T20:15:47.0986810+03:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa5.jpg', N'Diamond Villa', 4, 550.0E0, 900, '0001-01-01T00:00:00.0000000'),
+(5, N'', '2023-10-21T20:15:47.0986810+03:00', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmastery.com/bluevillaimages/villa2.jpg', N'Diamond Pool Villa', 4, 600.0E0, 1100, '0001-01-01T00:00:00.0000000');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] OFF;
+2023-10-21 20:17:09.618 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-21 20:17:09.618 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-21 20:17:09.618 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-21 20:17:09.618 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231021171547_SeedVillaTableCreatedDate', N'7.0.12');
+2023-10-21 20:17:09.619 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231021171547_SeedVillaTableCreatedDate', N'7.0.12');
+2023-10-21 20:17:09.620 +03:00 [DBG] Committing transaction.
+2023-10-21 20:17:09.624 +03:00 [DBG] Committed transaction.
+2023-10-21 20:17:09.624 +03:00 [DBG] Disposing transaction.
+2023-10-21 20:17:09.624 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.624 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-21 20:17:09.625 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-21 20:17:09.626 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-21 20:17:09.626 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).

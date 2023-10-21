@@ -1,36 +1,34 @@
 ﻿<Properties StartupConfiguration="{FF44D884-001A-4F5D-800F-A4803CDBD1D1}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test_API/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_API/appsettings.json">
     <Files>
-      <File FileName="Test_API/Program.cs" Line="15" Column="18" />
-      <File FileName="Test_API/Controllers/VillaAPIController.cs" Line="15" Column="6" />
-      <File FileName="Test_API/Models/Villa.cs" />
-      <File FileName="Test_API/Models/Dto/VillaDTO.cs" Line="23" Column="1" />
+      <File FileName="Test_API/Program.cs" Line="28" Column="37" />
+      <File FileName="Test_API/Controllers/VillaAPIController.cs" />
+      <File FileName="Test_API/Models/Villa.cs" Line="1" Column="1" />
+      <File FileName="Test_API/Models/Dto/VillaDTO.cs" />
       <File FileName="Test_API/Data/ApplicationDbContext.cs" Line="13" Column="1" />
       <File FileName="Test_API/Data/VillaStore.cs" Line="6" Column="35" />
+      <File FileName="Test_API/appsettings.json" Line="11" Column="4" />
+      <File FileName="Test_API/Migrations/20231020195600_AddVillaTable.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TestAPI" expanded="True">
             <Node name="Test_API">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="log" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Dto" expanded="True" />
-              </Node>
-              <Node name="Program.cs" selected="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Test__API PreferredExecutionTarget="/Applications/Opera.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Test__API PreferredExecutionTarget="/Applications/Opera.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
