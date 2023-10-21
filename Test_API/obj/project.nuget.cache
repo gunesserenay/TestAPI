@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gS7yHKsUv28nLvQ8mdPiIGEhyoJRCOlfjEF6qh+RdKcjZHAr3mSBSd55dqWrz5w66QJNKywtghx5YRy5QyKpRQ==",
+  "dgSpecHash": "vGSKMLHLNJdta3vpFWCSf1m78H0GeUz3U8KZPbVyZ9oqtEoQ9eO8bVffApOD5bwMgLoP/xpd362YTtyMu59x0g==",
   "success": true,
   "projectFilePath": "/Users/development1001/Projects/TestAPI/Test_API/Test_API.csproj",
   "expectedPackageFiles": [
+    "/Users/development1001/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/development1001/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/development1001/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/development1001/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/development1001/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
