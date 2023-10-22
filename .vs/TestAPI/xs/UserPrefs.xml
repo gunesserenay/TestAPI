@@ -1,34 +1,44 @@
 ﻿<Properties StartupConfiguration="{FF44D884-001A-4F5D-800F-A4803CDBD1D1}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test_API/appsettings.json">
+  <MonoDevelop.Ide.ItemProperties.Test__API PreferredExecutionTarget="/Applications/Opera.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_API/Repository/IRepository/IVillaRepository.cs">
     <Files>
-      <File FileName="Test_API/Program.cs" Line="28" Column="37" />
-      <File FileName="Test_API/Controllers/VillaAPIController.cs" />
-      <File FileName="Test_API/Models/Villa.cs" Line="1" Column="1" />
-      <File FileName="Test_API/Models/Dto/VillaDTO.cs" />
-      <File FileName="Test_API/Data/ApplicationDbContext.cs" Line="13" Column="1" />
-      <File FileName="Test_API/Data/VillaStore.cs" Line="6" Column="35" />
-      <File FileName="Test_API/appsettings.json" Line="11" Column="4" />
-      <File FileName="Test_API/Migrations/20231020195600_AddVillaTable.cs" Line="1" Column="1" />
+      <File FileName="Test_API/Program.cs" Line="14" Column="47" />
+      <File FileName="Test_API/Controllers/VillaAPIController.cs" Line="104" Column="75" />
+      <File FileName="Test_API/Models/Villa.cs" Line="7" Column="18" />
+      <File FileName="Test_API/Models/Dto/VillaDTO.cs" Line="1" Column="1" />
+      <File FileName="Test_API/Data/ApplicationDbContext.cs" Line="78" Column="18" />
+      <File FileName="Test_API/appsettings.json" Line="14" Column="1" />
+      <File FileName="Test_API/Models/Dto/VillaCreateDTO.cs" Line="8" Column="8" />
+      <File FileName="Test_API/Models/Dto/VillaUpdateDTO.cs" Line="22" Column="8" />
+      <File FileName="Test_API/MappingConfig.cs" Line="24" Column="1" />
+      <File FileName="Test_API/Repository/IRepository/IVillaRepository.cs" Line="10" Column="73" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TestAPI" expanded="True">
+          <Node name="TestAPI">
             <Node name="Test_API">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Dto" expanded="True" />
+              </Node>
+              <Node name="Repository" expanded="True">
+                <Node name="IRepository">
+                  <Node name="IVillaRepository.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Test__API PreferredExecutionTarget="/Applications/Opera.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
