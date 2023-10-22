@@ -1,0 +1,414 @@
+2023-10-22 17:21:00.180 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-22 17:21:00.216 +03:00 [DBG] Hosting starting
+2023-10-22 17:21:00.379 +03:00 [INF] Now listening on: https://localhost:7034
+2023-10-22 17:21:00.379 +03:00 [INF] Now listening on: http://localhost:5214
+2023-10-22 17:21:00.379 +03:00 [DBG] Loaded hosting startup assembly Test_API
+2023-10-22 17:21:00.379 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-22 17:21:00.379 +03:00 [INF] Hosting environment: Development
+2023-10-22 17:21:00.379 +03:00 [INF] Content root path: /Users/development1001/Projects/TestAPI/Test_API
+2023-10-22 17:21:00.380 +03:00 [DBG] Hosting started
+2023-10-22 17:21:00.390 +03:00 [DBG] Connection id "0HMUJ18EQKU91" accepted.
+2023-10-22 17:21:00.390 +03:00 [DBG] Connection id "0HMUJ18EQKU91" started.
+2023-10-22 17:21:01.388 +03:00 [DBG] Connection id "0HMUJ18EQKU91" received FIN.
+2023-10-22 17:21:01.394 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-22 17:21:01.427 +03:00 [DBG] Connection id "0HMUJ18EQKU91" stopped.
+2023-10-22 17:21:01.428 +03:00 [DBG] Connection id "0HMUJ18EQKU92" accepted.
+2023-10-22 17:21:01.431 +03:00 [DBG] Connection id "0HMUJ18EQKU92" started.
+2023-10-22 17:21:01.432 +03:00 [DBG] Connection id "0HMUJ18EQKU91" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-22 17:21:01.506 +03:00 [DBG] Connection 0HMUJ18EQKU92 established using the following protocol: "Tls12"
+2023-10-22 17:21:01.530 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger - -
+2023-10-22 17:21:01.530 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-22 17:21:01.540 +03:00 [DBG] No candidates found for the request path '/swagger'
+2023-10-22 17:21:01.540 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 17:21:01.552 +03:00 [DBG] Connection id "0HMUJ18EQKU92" completed keep alive response.
+2023-10-22 17:21:01.553 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger - - - 301 0 - 24.0030ms
+2023-10-22 17:21:01.555 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/index.html - -
+2023-10-22 17:21:01.555 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-22 17:21:01.555 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 17:21:01.592 +03:00 [DBG] Connection id "0HMUJ18EQKU92" completed keep alive response.
+2023-10-22 17:21:01.593 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 37.8732ms
+2023-10-22 17:21:01.653 +03:00 [DBG] Connection id "0HMUJ18EQKU93" accepted.
+2023-10-22 17:21:01.653 +03:00 [DBG] Connection id "0HMUJ18EQKU93" started.
+2023-10-22 17:21:01.675 +03:00 [DBG] Connection id "0HMUJ18EQKU94" accepted.
+2023-10-22 17:21:01.675 +03:00 [DBG] Connection id "0HMUJ18EQKU94" started.
+2023-10-22 17:21:01.704 +03:00 [DBG] Connection 0HMUJ18EQKU93 established using the following protocol: "Tls12"
+2023-10-22 17:21:01.704 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui.css - -
+2023-10-22 17:21:01.704 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-10-22 17:21:01.704 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 17:21:01.705 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-bundle.js - -
+2023-10-22 17:21:01.705 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-10-22 17:21:01.705 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 17:21:01.716 +03:00 [DBG] Connection 0HMUJ18EQKU94 established using the following protocol: "Tls12"
+2023-10-22 17:21:01.743 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - -
+2023-10-22 17:21:01.743 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-10-22 17:21:01.743 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 17:21:01.743 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-22 17:21:01.743 +03:00 [DBG] Connection id "0HMUJ18EQKU92" completed keep alive response.
+2023-10-22 17:21:01.743 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui.css - - - 200 144929 text/css 39.1844ms
+2023-10-22 17:21:01.748 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-22 17:21:01.748 +03:00 [DBG] Connection id "0HMUJ18EQKU94" completed keep alive response.
+2023-10-22 17:21:01.748 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 4.9040ms
+2023-10-22 17:21:01.947 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-22 17:21:01.949 +03:00 [DBG] Connection id "0HMUJ18EQKU93" completed keep alive response.
+2023-10-22 17:21:01.949 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 244.5346ms
+2023-10-22 17:21:01.998 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-10-22 17:21:01.998 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-22 17:21:01.998 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 17:21:02.004 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/favicon-32x32.png - -
+2023-10-22 17:21:02.004 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-10-22 17:21:02.005 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 17:21:02.005 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-22 17:21:02.005 +03:00 [DBG] Connection id "0HMUJ18EQKU94" completed keep alive response.
+2023-10-22 17:21:02.005 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/favicon-32x32.png - - - 200 628 image/png 0.8241ms
+2023-10-22 17:21:02.074 +03:00 [DBG] Connection id "0HMUJ18EQKU93" completed keep alive response.
+2023-10-22 17:21:02.074 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.7495ms
+2023-10-22 17:21:48.938 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/api/VillaAPI - -
+2023-10-22 17:21:48.943 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-10-22 17:21:48.946 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-10-22 17:21:48.947 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)'
+2023-10-22 17:21:48.947 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-22 17:21:48.950 +03:00 [INF] Executing endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)'
+2023-10-22 17:21:48.968 +03:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Test_API.Models.Dto.VillaDTO]]] GetVillas() on controller Test_API.Controllers.VillaAPIController (Test_API).
+2023-10-22 17:21:48.969 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-22 17:21:48.969 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-22 17:21:48.969 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-22 17:21:48.969 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-22 17:21:48.969 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-22 17:21:48.970 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 17:21:49.045 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-22 17:21:49.082 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 17:21:49.291 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-22 17:21:49.313 +03:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()'
+2023-10-22 17:21:49.374 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+        FROM Villas AS v), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Test_API.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-22 17:21:49.389 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 17:21:49.391 +03:00 [DBG] Creating DbConnection.
+2023-10-22 17:21:49.401 +03:00 [DBG] Created DbConnection. (9ms).
+2023-10-22 17:21:49.403 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (13ms).
+2023-10-22 17:21:49.404 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (15ms).
+2023-10-22 17:21:49.406 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:04.056 +03:00 [ERR] An error occurred using the connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:04.069 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Test_API.Data.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server: Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server: Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2023-10-22 17:22:04.159 +03:00 [INF] Executed action Test_API.Controllers.VillaAPIController.GetVillas (Test_API) in 15188.3945ms
+2023-10-22 17:22:04.160 +03:00 [INF] Executed endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)'
+2023-10-22 17:22:04.160 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server: Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Test_API.Repository.VillaRepository.GetAllAsync(Expression`1 filter) in /Users/development1001/Projects/TestAPI/Test_API/Repository/VillaRepository.cs:line 47
+   at Test_API.Controllers.VillaAPIController.GetVillas() in /Users/development1001/Projects/TestAPI/Test_API/Controllers/VillaAPIController.cs:line 39
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2023-10-22 17:22:04.167 +03:00 [DBG] Connection id "0HMUJ18EQKU93" completed keep alive response.
+2023-10-22 17:22:04.169 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-22 17:22:04.171 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:04.174 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-22 17:22:04.174 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/api/VillaAPI - - - 500 - text/plain;+charset=utf-8 15235.9367ms
+2023-10-22 17:22:41.235 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/api/VillaAPI - -
+2023-10-22 17:22:41.237 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-10-22 17:22:41.237 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-10-22 17:22:41.238 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)'
+2023-10-22 17:22:41.238 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-22 17:22:41.238 +03:00 [INF] Executing endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)'
+2023-10-22 17:22:41.239 +03:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Test_API.Models.Dto.VillaDTO]]] GetVillas() on controller Test_API.Controllers.VillaAPIController (Test_API).
+2023-10-22 17:22:41.239 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-22 17:22:41.239 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-22 17:22:41.239 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-22 17:22:41.239 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-22 17:22:41.239 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-22 17:22:41.239 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 17:22:41.241 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 17:22:41.256 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-22 17:22:41.257 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 17:22:41.257 +03:00 [DBG] Creating DbConnection.
+2023-10-22 17:22:41.257 +03:00 [DBG] Created DbConnection. (0ms).
+2023-10-22 17:22:41.257 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 17:22:41.257 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 17:22:41.257 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:41.428 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:41.431 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-10-22 17:22:41.460 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-10-22 17:22:41.471 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:22:41.480 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:22:41.480 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:22:41.480 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:22:41.480 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:22:41.480 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:22:41.480 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:22:41.480 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:22:41.480 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:22:41.482 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:41.483 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 22ms reading results.
+2023-10-22 17:22:41.484 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:41.486 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (1ms).
+2023-10-22 17:22:41.493 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-10-22 17:22:41.494 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-22 17:22:41.495 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-22 17:22:41.495 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-22 17:22:41.495 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-22 17:22:41.495 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-22 17:22:41.495 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Test_API.Models.Dto.VillaDTO, Test_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-22 17:22:41.539 +03:00 [INF] Executed action Test_API.Controllers.VillaAPIController.GetVillas (Test_API) in 299.856ms
+2023-10-22 17:22:41.539 +03:00 [INF] Executed endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)'
+2023-10-22 17:22:41.539 +03:00 [DBG] Connection id "0HMUJ18EQKU93" completed keep alive response.
+2023-10-22 17:22:41.539 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-22 17:22:41.539 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:41.539 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-22 17:22:41.539 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/api/VillaAPI - - - 200 2354 application/json;+charset=utf-8 304.1826ms
+2023-10-22 17:22:54.487 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/api/VillaAPI/2 - -
+2023-10-22 17:22:54.488 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/2'
+2023-10-22 17:22:54.488 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.GetVilla (Test_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/2'
+2023-10-22 17:22:54.488 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.VillaAPIController.GetVilla (Test_API)'
+2023-10-22 17:22:54.488 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-22 17:22:54.489 +03:00 [INF] Executing endpoint 'Test_API.Controllers.VillaAPIController.GetVilla (Test_API)'
+2023-10-22 17:22:54.501 +03:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Test_API.Models.Dto.VillaDTO]] GetVilla(Int32) on controller Test_API.Controllers.VillaAPIController (Test_API).
+2023-10-22 17:22:54.501 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-22 17:22:54.501 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-22 17:22:54.501 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-22 17:22:54.501 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-22 17:22:54.501 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-22 17:22:54.501 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 17:22:54.505 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 17:22:54.510 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-10-22 17:22:54.512 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-10-22 17:22:54.513 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-10-22 17:22:54.514 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-10-22 17:22:54.514 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-10-22 17:22:54.516 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-10-22 17:22:54.553 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-22 17:22:54.561 +03:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .Where(x => x.Id == __id_0)
+    .FirstOrDefault()'
+2023-10-22 17:22:54.593 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Villa>(
+    asyncEnumerable: new SingleQueryingEnumerable<Villa>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+            SELECT TOP(1) v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+            FROM Villas AS v
+            WHERE v.Id == @__id_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+        Test_API.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-10-22 17:22:54.597 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 17:22:54.597 +03:00 [DBG] Creating DbConnection.
+2023-10-22 17:22:54.597 +03:00 [DBG] Created DbConnection. (0ms).
+2023-10-22 17:22:54.597 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 17:22:54.598 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2023-10-22 17:22:54.598 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:54.598 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:54.599 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-10-22 17:22:54.626 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-10-22 17:22:54.626 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:22:54.627 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:54.627 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 0ms reading results.
+2023-10-22 17:22:54.627 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:54.627 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 17:22:54.628 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-10-22 17:22:54.628 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-22 17:22:54.628 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-22 17:22:54.628 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-22 17:22:54.628 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-22 17:22:54.628 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-22 17:22:54.628 +03:00 [INF] Executing OkObjectResult, writing value of type 'Test_API.Models.Dto.VillaDTO'.
+2023-10-22 17:22:54.628 +03:00 [INF] Executed action Test_API.Controllers.VillaAPIController.GetVilla (Test_API) in 127.0837ms
+2023-10-22 17:22:54.628 +03:00 [INF] Executed endpoint 'Test_API.Controllers.VillaAPIController.GetVilla (Test_API)'
+2023-10-22 17:22:54.628 +03:00 [DBG] Connection id "0HMUJ18EQKU93" completed keep alive response.
+2023-10-22 17:22:54.628 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-22 17:22:54.629 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:22:54.629 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-22 17:22:54.629 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/api/VillaAPI/2 - - - 200 303 application/json;+charset=utf-8 141.7007ms
+2023-10-22 17:23:07.882 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7034/api/VillaAPI/10 - -
+2023-10-22 17:23:07.882 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/10'
+2023-10-22 17:23:07.883 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/10'
+2023-10-22 17:23:07.883 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)'
+2023-10-22 17:23:07.883 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-22 17:23:07.883 +03:00 [INF] Executing endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)'
+2023-10-22 17:23:07.886 +03:00 [INF] Route matched with {action = "DeleteVilla", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteVilla(Int32) on controller Test_API.Controllers.VillaAPIController (Test_API).
+2023-10-22 17:23:07.886 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-22 17:23:07.887 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-22 17:23:07.887 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-22 17:23:07.887 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-22 17:23:07.887 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-22 17:23:07.887 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 17:23:07.887 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 17:23:07.887 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-10-22 17:23:07.888 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-10-22 17:23:07.888 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-10-22 17:23:07.888 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-10-22 17:23:07.888 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-10-22 17:23:07.888 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-10-22 17:23:07.892 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-22 17:23:07.895 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 17:23:07.895 +03:00 [DBG] Creating DbConnection.
+2023-10-22 17:23:07.895 +03:00 [DBG] Created DbConnection. (0ms).
+2023-10-22 17:23:07.895 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 17:23:07.895 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 17:23:07.895 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:23:07.895 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:23:07.896 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-10-22 17:23:07.925 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-10-22 17:23:08.001 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:23:08.023 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:23:08.023 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 72ms reading results.
+2023-10-22 17:23:08.023 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:23:08.023 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 17:23:08.041 +03:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:23:08.048 +03:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2023-10-22 17:23:08.051 +03:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-10-22 17:23:08.066 +03:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-10-22 17:23:08.099 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:23:08.100 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:23:08.101 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 17:23:08.101 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 17:23:08.101 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 17:23:08.101 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Villas]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-10-22 17:23:08.111 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Villas]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-10-22 17:23:08.113 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:23:08.113 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 2ms reading results.
+2023-10-22 17:23:08.114 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:23:08.114 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 17:23:08.116 +03:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 17:23:08.117 +03:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2023-10-22 17:23:08.117 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-10-22 17:23:08.117 +03:00 [INF] Executed action Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API) in 230.5411ms
+2023-10-22 17:23:08.117 +03:00 [INF] Executed endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)'
+2023-10-22 17:23:08.117 +03:00 [DBG] Connection id "0HMUJ18EQKU93" completed keep alive response.
+2023-10-22 17:23:08.117 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-22 17:23:08.117 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 17:23:08.117 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-22 17:23:08.117 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7034/api/VillaAPI/10 - - - 204 - - 235.3667ms

@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Test_API.Data;
 using Test_API.Models;
 using Test_API.Models.Dto;
+using Test_API.Repository.IRepository;
 
 namespace Test_API.Controllers
 {
@@ -22,11 +23,11 @@ namespace Test_API.Controllers
         //{
         //    _logger = logger;
         //}
-        private readonly ApplicationDbContext _db;
+        private readonly IVillaRepository _dbVilla;
         public readonly IMapper _mapper;
-        public VillaAPIController(ApplicationDbContext db, IMapper mapper)
+        public VillaAPIController(IVillaRepository dbVilla, IMapper mapper)
         {
-            _db = db;
+            _dbVilla = dbVilla;
             _mapper = mapper;
         }
 
@@ -35,7 +36,7 @@ namespace Test_API.Controllers
         public async Task<ActionResult<IEnumerable<VillaDTO>>> GetVillas()
         {
             // _logger.LogInformation("Getting all villas");
-            IEnumerable<Villa> villaList = await _db.Villas.ToListAsync();
+            IEnumerable<Villa> villaList = await _dbVilla.GetAllAsync();
             return Ok(_mapper.Map<List<VillaDTO>>(villaList));
         }
 
@@ -55,7 +56,7 @@ namespace Test_API.Controllers
                 return BadRequest();
             }
 
-            var villa = await _db.Villas.FirstOrDefaultAsync(x => x.Id == id);
+            var villa = await _dbVilla.GetAsync(x => x.Id == id);
             if (villa == null)
             {
                 return NotFound();
@@ -72,7 +73,7 @@ namespace Test_API.Controllers
             //{
             //    return BadRequest(villaDTO);
             //}
-            if (await _db.Villas.FirstOrDefaultAsync(u => u.Name.ToLower() == createDTO.Name.ToLower()) != null)
+            if (await _dbVilla.GetAsync(u => u.Name.ToLower() == createDTO.Name.ToLower()) != null)
             {
                 ModelState.AddModelError("CustomError", "Villa already Exists");
                 return BadRequest(ModelState);
@@ -87,7 +88,7 @@ namespace Test_API.Controllers
             //    return StatusCode(StatusCodes.Status500InternalServerError);
             //}
 
-            Villa villa = _mapper.Map<Villa>(createDTO);
+            Villa model = _mapper.Map<Villa>(createDTO);
             //Villa model = new()
             //{
             //    Amenity = createDTO.Amenity,
@@ -98,10 +99,9 @@ namespace Test_API.Controllers
             //    Rate = createDTO.Rate,
             //    Sqft = createDTO.Sqft
             //};
-            await _db.Villas.AddAsync(villa);
-            await _db.SaveChangesAsync();
+           await _dbVilla.CreateAsync(model);
 
-            return CreatedAtRoute("GetVilla", new { id = villa.Id }, villa);
+            return CreatedAtRoute("GetVilla", new { id = model.Id }, model);
         }
 
         [HttpDelete("{id:int}", Name = "DeleteVilla")]
@@ -114,14 +114,14 @@ namespace Test_API.Controllers
             {
                 return BadRequest();
             }
-            var villa = await _db.Villas.FirstOrDefaultAsync(x => x.Id == id);
+            var villa = await _dbVilla.GetAsync(x => x.Id == id);
             if (villa == null)
             {
                 return NotFound();
             }
 
-            _db.Villas.Remove(villa);
-            await _db.SaveChangesAsync();
+           
+            await _dbVilla.RemoveAsync(villa);
             return NoContent();
         }
 
@@ -152,8 +152,7 @@ namespace Test_API.Controllers
             //    Rate = updateDTO.Rate,
             //    Sqft = updateDTO.Sqft
             //};
-            _db.Villas.Update(model);
-            await _db.SaveChangesAsync();
+             await _dbVilla.UpdateAsync(model);
             return NoContent();
 
         }
@@ -169,7 +168,7 @@ namespace Test_API.Controllers
                 return BadRequest();
             }
 
-            var villa = await _db.Villas.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+            var villa = await _dbVilla.GetAsync(x => x.Id == id, tracked:false);
 
             VillaUpdateDTO villaDTO = _mapper.Map<VillaUpdateDTO>(villa);
             //VillaUpdateDTO villaDTO = new()
@@ -203,8 +202,7 @@ namespace Test_API.Controllers
             //    Rate = villaDTO.Rate,
             //    Sqft = villaDTO.Sqft
             //};
-            _db.Villas.Update(model);
-            await _db.SaveChangesAsync();
+           await _dbVilla.UpdateAsync(model);
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
