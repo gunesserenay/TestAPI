@@ -1841,3 +1841,676 @@ WHERE [Id] = @p9;
 2023-10-22 18:07:06.978 +03:00 [DBG] Connection id "0HMUJ1UJ4A91Q" stopped.
 2023-10-22 18:07:06.978 +03:00 [DBG] Connection id "0HMUJ1UJ4A91R" stopped.
 2023-10-22 18:07:06.978 +03:00 [DBG] Connection id "0HMUJ1UJ4A91S" stopped.
+2023-10-22 21:39:12.498 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-22 21:39:12.535 +03:00 [DBG] Hosting starting
+2023-10-22 21:39:12.716 +03:00 [INF] Now listening on: https://localhost:7034
+2023-10-22 21:39:12.716 +03:00 [INF] Now listening on: http://localhost:5214
+2023-10-22 21:39:12.717 +03:00 [DBG] Loaded hosting startup assembly Test_API
+2023-10-22 21:39:12.717 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-22 21:39:12.717 +03:00 [INF] Hosting environment: Development
+2023-10-22 21:39:12.717 +03:00 [INF] Content root path: /Users/development1001/Projects/TestAPI/Test_API
+2023-10-22 21:39:12.717 +03:00 [DBG] Hosting started
+2023-10-22 21:39:12.767 +03:00 [DBG] Connection id "0HMUJ5ONTF791" accepted.
+2023-10-22 21:39:12.767 +03:00 [DBG] Connection id "0HMUJ5ONTF791" started.
+2023-10-22 21:39:13.768 +03:00 [DBG] Connection id "0HMUJ5ONTF791" received FIN.
+2023-10-22 21:39:13.778 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-22 21:39:13.833 +03:00 [DBG] Connection id "0HMUJ5ONTF792" accepted.
+2023-10-22 21:39:13.844 +03:00 [DBG] Connection id "0HMUJ5ONTF792" started.
+2023-10-22 21:39:13.848 +03:00 [DBG] Connection id "0HMUJ5ONTF791" stopped.
+2023-10-22 21:39:13.851 +03:00 [DBG] Connection id "0HMUJ5ONTF791" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-22 21:39:13.922 +03:00 [DBG] Connection 0HMUJ5ONTF792 established using the following protocol: "Tls12"
+2023-10-22 21:39:13.945 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger - -
+2023-10-22 21:39:13.946 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-22 21:39:13.955 +03:00 [DBG] No candidates found for the request path '/swagger'
+2023-10-22 21:39:13.955 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 21:39:13.966 +03:00 [DBG] Connection id "0HMUJ5ONTF792" completed keep alive response.
+2023-10-22 21:39:13.967 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger - - - 301 0 - 22.3532ms
+2023-10-22 21:39:13.969 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/index.html - -
+2023-10-22 21:39:13.969 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-22 21:39:13.969 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 21:39:14.003 +03:00 [DBG] Connection id "0HMUJ5ONTF792" completed keep alive response.
+2023-10-22 21:39:14.003 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 34.4352ms
+2023-10-22 21:39:14.060 +03:00 [DBG] Connection id "0HMUJ5ONTF793" accepted.
+2023-10-22 21:39:14.060 +03:00 [DBG] Connection id "0HMUJ5ONTF793" started.
+2023-10-22 21:39:14.060 +03:00 [DBG] Connection id "0HMUJ5ONTF794" accepted.
+2023-10-22 21:39:14.060 +03:00 [DBG] Connection id "0HMUJ5ONTF794" started.
+2023-10-22 21:39:14.061 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui.css - -
+2023-10-22 21:39:14.061 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-10-22 21:39:14.061 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 21:39:14.069 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-22 21:39:14.069 +03:00 [DBG] Connection id "0HMUJ5ONTF792" completed keep alive response.
+2023-10-22 21:39:14.069 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui.css - - - 200 144929 text/css 8.5149ms
+2023-10-22 21:39:14.070 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-bundle.js - -
+2023-10-22 21:39:14.070 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-10-22 21:39:14.070 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 21:39:14.177 +03:00 [DBG] Connection 0HMUJ5ONTF794 established using the following protocol: "Tls12"
+2023-10-22 21:39:14.202 +03:00 [DBG] Connection 0HMUJ5ONTF793 established using the following protocol: "Tls12"
+2023-10-22 21:39:14.224 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - -
+2023-10-22 21:39:14.249 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-10-22 21:39:14.249 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 21:39:14.480 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-22 21:39:14.480 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-22 21:39:14.482 +03:00 [DBG] Connection id "0HMUJ5ONTF792" completed keep alive response.
+2023-10-22 21:39:14.482 +03:00 [DBG] Connection id "0HMUJ5ONTF794" completed keep alive response.
+2023-10-22 21:39:14.482 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 258.0839ms
+2023-10-22 21:39:14.482 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 412.2349ms
+2023-10-22 21:39:14.582 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-10-22 21:39:14.582 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-22 21:39:14.582 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 21:39:14.588 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/favicon-32x32.png - -
+2023-10-22 21:39:14.588 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-10-22 21:39:14.588 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 21:39:14.589 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-22 21:39:14.589 +03:00 [DBG] Connection id "0HMUJ5ONTF792" completed keep alive response.
+2023-10-22 21:39:14.589 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/favicon-32x32.png - - - 200 628 image/png 0.7091ms
+2023-10-22 21:39:14.669 +03:00 [DBG] Connection id "0HMUJ5ONTF794" completed keep alive response.
+2023-10-22 21:39:14.669 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.7396ms
+2023-10-22 21:39:34.457 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/api/VillaAPI - -
+2023-10-22 21:39:34.462 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-10-22 21:39:34.464 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-10-22 21:39:34.465 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)'
+2023-10-22 21:39:34.465 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-22 21:39:34.468 +03:00 [INF] Executing endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)'
+2023-10-22 21:39:34.491 +03:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Test_API.Models.APIResponse]] GetVillas() on controller Test_API.Controllers.VillaAPIController (Test_API).
+2023-10-22 21:39:34.492 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-22 21:39:34.492 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-22 21:39:34.492 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-22 21:39:34.492 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-22 21:39:34.492 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-22 21:39:34.494 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:39:34.566 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-22 21:39:34.738 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-22 21:39:34.765 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:39:34.788 +03:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()'
+2023-10-22 21:39:34.836 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+        FROM Villas AS v), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Test_API.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-22 21:39:34.849 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:39:34.849 +03:00 [DBG] Creating DbConnection.
+2023-10-22 21:39:34.858 +03:00 [DBG] Created DbConnection. (7ms).
+2023-10-22 21:39:34.861 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (11ms).
+2023-10-22 21:39:34.861 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (13ms).
+2023-10-22 21:39:34.863 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:39:34.981 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:39:34.984 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-10-22 21:39:35.006 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-10-22 21:39:35.017 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:39:35.026 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:39:35.026 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:39:35.026 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:39:35.026 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:39:35.026 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:39:35.026 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:39:35.026 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:39:35.028 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:39:35.030 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 22ms reading results.
+2023-10-22 21:39:35.031 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:39:35.033 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (2ms).
+2023-10-22 21:39:35.041 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-10-22 21:39:35.042 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-22 21:39:35.042 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-22 21:39:35.042 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-22 21:39:35.042 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-22 21:39:35.042 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-22 21:39:35.042 +03:00 [INF] Executing OkObjectResult, writing value of type 'Test_API.Models.APIResponse'.
+2023-10-22 21:39:35.083 +03:00 [INF] Executed action Test_API.Controllers.VillaAPIController.GetVillas (Test_API) in 589.2433ms
+2023-10-22 21:39:35.083 +03:00 [INF] Executed endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)'
+2023-10-22 21:39:35.083 +03:00 [DBG] Connection id "0HMUJ5ONTF794" completed keep alive response.
+2023-10-22 21:39:35.084 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-22 21:39:35.085 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:39:35.085 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-22 21:39:35.086 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/api/VillaAPI - - - 200 2287 application/json;+charset=utf-8 628.1457ms
+2023-10-22 21:40:17.166 +03:00 [DBG] Connection id "0HMUJ5ONTF793" received FIN.
+2023-10-22 21:40:17.170 +03:00 [DBG] Connection id "0HMUJ5ONTF793" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-22 21:40:17.170 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7034/api/VillaAPI application/json-patch+json 134
+2023-10-22 21:40:17.172 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-10-22 21:40:17.172 +03:00 [DBG] Connection id "0HMUJ5ONTF793" disconnecting.
+2023-10-22 21:40:17.172 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-10-22 21:40:17.172 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)'
+2023-10-22 21:40:17.172 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-22 21:40:17.175 +03:00 [INF] Executing endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)'
+2023-10-22 21:40:17.175 +03:00 [DBG] Connection id "0HMUJ5ONTF793" stopped.
+2023-10-22 21:40:17.188 +03:00 [INF] Route matched with {action = "CreateVilla", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Test_API.Models.APIResponse]] CreateVilla(Test_API.Models.Dto.VillaCreateDTO) on controller Test_API.Controllers.VillaAPIController (Test_API).
+2023-10-22 21:40:17.188 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-22 21:40:17.188 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-22 21:40:17.188 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-22 21:40:17.188 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-22 21:40:17.188 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-22 21:40:17.188 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:40:17.223 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-22 21:40:17.225 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:40:17.228 +03:00 [DBG] Attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO' ...
+2023-10-22 21:40:17.229 +03:00 [DBG] Attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO' using the name '' in request data ...
+2023-10-22 21:40:17.230 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-10-22 21:40:17.230 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-10-22 21:40:17.233 +03:00 [DBG] Connection id "0HMUJ5ONTF794", Request id "0HMUJ5ONTF794:00000004": started reading request body.
+2023-10-22 21:40:17.233 +03:00 [DBG] Connection id "0HMUJ5ONTF794", Request id "0HMUJ5ONTF794:00000004": done reading request body.
+2023-10-22 21:40:17.249 +03:00 [DBG] Done attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO'.
+2023-10-22 21:40:17.249 +03:00 [DBG] Done attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO'.
+2023-10-22 21:40:17.249 +03:00 [DBG] Attempting to validate the bound parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO' ...
+2023-10-22 21:40:17.254 +03:00 [DBG] Done attempting to validate the bound parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO'.
+2023-10-22 21:40:17.261 +03:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .Where(u => u.Name.ToLower() == __ToLower_0)
+    .FirstOrDefault()'
+2023-10-22 21:40:17.297 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Villa>(
+    asyncEnumerable: new SingleQueryingEnumerable<Villa>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+            SELECT TOP(1) v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+            FROM Villas AS v
+            WHERE LOWER(v.Name) == @__ToLower_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+        Test_API.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-10-22 21:40:17.303 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:40:17.303 +03:00 [DBG] Creating DbConnection.
+2023-10-22 21:40:17.303 +03:00 [DBG] Created DbConnection. (0ms).
+2023-10-22 21:40:17.303 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:40:17.304 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2023-10-22 21:40:17.304 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:40:17.305 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:40:17.306 +03:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE LOWER([v].[Name]) = @__ToLower_0
+2023-10-22 21:40:17.347 +03:00 [INF] Executed DbCommand (42ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE LOWER([v].[Name]) = @__ToLower_0
+2023-10-22 21:40:17.347 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:40:17.348 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 0ms reading results.
+2023-10-22 21:40:17.348 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:40:17.348 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 21:40:17.361 +03:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'Id.Villa'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:40:17.364 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:40:17.365 +03:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2023-10-22 21:40:17.366 +03:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-10-22 21:40:17.370 +03:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-10-22 21:40:17.390 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:40:17.390 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:40:17.391 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:40:17.391 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:40:17.391 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:40:17.391 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Villas] ([Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-10-22 21:40:17.453 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Villas] ([Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-10-22 21:40:17.459 +03:00 [DBG] The foreign key property 'Villa.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-10-22 21:40:17.462 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:40:17.462 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 8ms reading results.
+2023-10-22 21:40:17.462 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:40:17.462 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 21:40:17.466 +03:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:40:17.467 +03:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2023-10-22 21:40:17.527 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-10-22 21:40:17.527 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-22 21:40:17.527 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-22 21:40:17.527 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-22 21:40:17.527 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-22 21:40:17.527 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-22 21:40:17.527 +03:00 [INF] Executing ObjectResult, writing value of type 'Test_API.Models.APIResponse'.
+2023-10-22 21:40:17.527 +03:00 [INF] Executed action Test_API.Controllers.VillaAPIController.CreateVilla (Test_API) in 339.3958ms
+2023-10-22 21:40:17.527 +03:00 [INF] Executed endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)'
+2023-10-22 21:40:17.527 +03:00 [DBG] Connection id "0HMUJ5ONTF794" completed keep alive response.
+2023-10-22 21:40:17.527 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-22 21:40:17.528 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:40:17.528 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-22 21:40:17.528 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7034/api/VillaAPI application/json-patch+json 134 - 200 602 application/json;+charset=utf-8 357.3047ms
+2023-10-22 21:44:11.409 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-22 21:44:11.447 +03:00 [DBG] Hosting starting
+2023-10-22 21:44:11.622 +03:00 [INF] Now listening on: https://localhost:7034
+2023-10-22 21:44:11.623 +03:00 [INF] Now listening on: http://localhost:5214
+2023-10-22 21:44:11.623 +03:00 [DBG] Loaded hosting startup assembly Test_API
+2023-10-22 21:44:11.623 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-22 21:44:11.623 +03:00 [INF] Hosting environment: Development
+2023-10-22 21:44:11.623 +03:00 [INF] Content root path: /Users/development1001/Projects/TestAPI/Test_API
+2023-10-22 21:44:11.623 +03:00 [DBG] Hosting started
+2023-10-22 21:44:11.640 +03:00 [DBG] Connection id "0HMUJ5RGVNV59" accepted.
+2023-10-22 21:44:11.640 +03:00 [DBG] Connection id "0HMUJ5RGVNV59" started.
+2023-10-22 21:44:12.641 +03:00 [DBG] Connection id "0HMUJ5RGVNV59" received FIN.
+2023-10-22 21:44:12.650 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-22 21:44:12.688 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" accepted.
+2023-10-22 21:44:12.701 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" started.
+2023-10-22 21:44:12.704 +03:00 [DBG] Connection id "0HMUJ5RGVNV59" stopped.
+2023-10-22 21:44:12.708 +03:00 [DBG] Connection id "0HMUJ5RGVNV59" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-22 21:44:12.773 +03:00 [DBG] Connection 0HMUJ5RGVNV5A established using the following protocol: "Tls12"
+2023-10-22 21:44:12.797 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/index.html - -
+2023-10-22 21:44:12.798 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-22 21:44:12.808 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-22 21:44:12.808 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 21:44:12.849 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" completed keep alive response.
+2023-10-22 21:44:12.851 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 53.7239ms
+2023-10-22 21:44:12.995 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-10-22 21:44:12.995 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-22 21:44:12.995 +03:00 [DBG] Request did not match any endpoints
+2023-10-22 21:44:13.061 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" completed keep alive response.
+2023-10-22 21:44:13.061 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.4581ms
+2023-10-22 21:44:22.842 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7034/api/VillaAPI application/json-patch+json 136
+2023-10-22 21:44:22.845 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-10-22 21:44:22.847 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-10-22 21:44:22.848 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)'
+2023-10-22 21:44:22.850 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-22 21:44:22.854 +03:00 [INF] Executing endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)'
+2023-10-22 21:44:22.876 +03:00 [INF] Route matched with {action = "CreateVilla", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Test_API.Models.APIResponse]] CreateVilla(Test_API.Models.Dto.VillaCreateDTO) on controller Test_API.Controllers.VillaAPIController (Test_API).
+2023-10-22 21:44:22.877 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-22 21:44:22.877 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-22 21:44:22.877 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-22 21:44:22.877 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-22 21:44:22.877 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-22 21:44:22.878 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:44:22.943 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-22 21:44:23.112 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-22 21:44:23.139 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:44:23.140 +03:00 [DBG] Attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO' ...
+2023-10-22 21:44:23.141 +03:00 [DBG] Attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO' using the name '' in request data ...
+2023-10-22 21:44:23.141 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-10-22 21:44:23.141 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-10-22 21:44:23.143 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A", Request id "0HMUJ5RGVNV5A:00000003": started reading request body.
+2023-10-22 21:44:23.143 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A", Request id "0HMUJ5RGVNV5A:00000003": done reading request body.
+2023-10-22 21:44:23.174 +03:00 [DBG] Done attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO'.
+2023-10-22 21:44:23.175 +03:00 [DBG] Done attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO'.
+2023-10-22 21:44:23.175 +03:00 [DBG] Attempting to validate the bound parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO' ...
+2023-10-22 21:44:23.178 +03:00 [DBG] Done attempting to validate the bound parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO'.
+2023-10-22 21:44:23.210 +03:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .Where(u => u.Name.ToLower() == __ToLower_0)
+    .FirstOrDefault()'
+2023-10-22 21:44:23.284 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Villa>(
+    asyncEnumerable: new SingleQueryingEnumerable<Villa>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+            SELECT TOP(1) v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+            FROM Villas AS v
+            WHERE LOWER(v.Name) == @__ToLower_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+        Test_API.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-10-22 21:44:23.300 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:44:23.300 +03:00 [DBG] Creating DbConnection.
+2023-10-22 21:44:23.308 +03:00 [DBG] Created DbConnection. (6ms).
+2023-10-22 21:44:23.310 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (9ms).
+2023-10-22 21:44:23.313 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2023-10-22 21:44:23.315 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:23.423 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:23.427 +03:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE LOWER([v].[Name]) = @__ToLower_0
+2023-10-22 21:44:23.460 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE LOWER([v].[Name]) = @__ToLower_0
+2023-10-22 21:44:23.465 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:23.470 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 7ms reading results.
+2023-10-22 21:44:23.472 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:23.475 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (2ms).
+2023-10-22 21:44:23.494 +03:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'Id.Villa'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:44:23.515 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:44:23.518 +03:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2023-10-22 21:44:23.520 +03:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-10-22 21:44:23.525 +03:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-10-22 21:44:23.546 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:23.546 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:23.547 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:44:23.547 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:44:23.548 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:44:23.548 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Villas] ([Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-10-22 21:44:23.557 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Villas] ([Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-10-22 21:44:23.563 +03:00 [DBG] The foreign key property 'Villa.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-10-22 21:44:23.564 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:23.564 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 7ms reading results.
+2023-10-22 21:44:23.565 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:23.565 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 21:44:23.568 +03:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:44:23.569 +03:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2023-10-22 21:44:23.573 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-10-22 21:44:23.573 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-22 21:44:23.574 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-22 21:44:23.574 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-22 21:44:23.574 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-22 21:44:23.574 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-22 21:44:23.574 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Test_API.Models.APIResponse'.
+2023-10-22 21:44:23.579 +03:00 [DBG] Found the endpoints ["Test_API.Controllers.VillaAPIController.GetVilla (Test_API)"] for address GetVilla(id=[1002])
+2023-10-22 21:44:23.581 +03:00 [DBG] Successfully processed template api/VillaAPI/{id:int} for Test_API.Controllers.VillaAPIController.GetVilla (Test_API) resulting in /api/VillaAPI/1002 and 
+2023-10-22 21:44:23.581 +03:00 [DBG] Link generation succeeded for endpoints ["Test_API.Controllers.VillaAPIController.GetVilla (Test_API)"] with result /api/VillaAPI/1002
+2023-10-22 21:44:23.597 +03:00 [INF] Executed action Test_API.Controllers.VillaAPIController.CreateVilla (Test_API) in 718.9799ms
+2023-10-22 21:44:23.597 +03:00 [INF] Executed endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)'
+2023-10-22 21:44:23.598 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" completed keep alive response.
+2023-10-22 21:44:23.599 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-22 21:44:23.600 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:23.601 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-22 21:44:23.601 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7034/api/VillaAPI application/json-patch+json 136 - 201 185 application/json;+charset=utf-8 759.0210ms
+2023-10-22 21:44:54.138 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7034/api/VillaAPI/1001 - -
+2023-10-22 21:44:54.166 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/1001'
+2023-10-22 21:44:54.166 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/1001'
+2023-10-22 21:44:54.167 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)'
+2023-10-22 21:44:54.167 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-22 21:44:54.167 +03:00 [INF] Executing endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)'
+2023-10-22 21:44:54.174 +03:00 [INF] Route matched with {action = "DeleteVilla", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Test_API.Models.APIResponse]] DeleteVilla(Int32) on controller Test_API.Controllers.VillaAPIController (Test_API).
+2023-10-22 21:44:54.175 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-22 21:44:54.175 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-22 21:44:54.175 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-22 21:44:54.175 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-22 21:44:54.175 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-22 21:44:54.175 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:44:54.220 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-22 21:44:54.220 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:44:54.220 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-10-22 21:44:54.222 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-10-22 21:44:54.223 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-10-22 21:44:54.223 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-10-22 21:44:54.223 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-10-22 21:44:54.223 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-10-22 21:44:54.225 +03:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .Where(x => x.Id == __id_0)
+    .FirstOrDefault()'
+2023-10-22 21:44:54.228 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Villa>(
+    asyncEnumerable: new SingleQueryingEnumerable<Villa>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+            SELECT TOP(1) v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+            FROM Villas AS v
+            WHERE v.Id == @__id_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+        Test_API.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-10-22 21:44:54.229 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:44:54.229 +03:00 [DBG] Creating DbConnection.
+2023-10-22 21:44:54.229 +03:00 [DBG] Created DbConnection. (0ms).
+2023-10-22 21:44:54.229 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:44:54.229 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:44:54.229 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:54.229 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:54.229 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-10-22 21:44:54.411 +03:00 [INF] Executed DbCommand (156ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-10-22 21:44:54.443 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:44:54.444 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:54.444 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 8ms reading results.
+2023-10-22 21:44:54.444 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:54.445 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 21:44:54.449 +03:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:44:54.451 +03:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2023-10-22 21:44:54.451 +03:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-10-22 21:44:54.451 +03:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-10-22 21:44:54.459 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:54.459 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:54.459 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:44:54.459 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:44:54.459 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:44:54.459 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Villas]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-10-22 21:44:54.492 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Villas]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-10-22 21:44:54.519 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:54.519 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 2ms reading results.
+2023-10-22 21:44:54.520 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:54.520 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 21:44:54.523 +03:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:44:54.523 +03:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2023-10-22 21:44:54.524 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-10-22 21:44:54.524 +03:00 [DBG] No information found on request to perform content negotiation.
+2023-10-22 21:44:54.524 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-22 21:44:54.524 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-22 21:44:54.524 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-22 21:44:54.524 +03:00 [INF] Executing OkObjectResult, writing value of type 'Test_API.Models.APIResponse'.
+2023-10-22 21:44:54.525 +03:00 [INF] Executed action Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API) in 349.949ms
+2023-10-22 21:44:54.525 +03:00 [INF] Executed endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)'
+2023-10-22 21:44:54.525 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" completed keep alive response.
+2023-10-22 21:44:54.525 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-22 21:44:54.525 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:44:54.526 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-22 21:44:54.526 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7034/api/VillaAPI/1001 - - - 200 70 application/json;+charset=utf-8 388.0892ms
+2023-10-22 21:45:09.090 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7034/api/VillaAPI/1002 - -
+2023-10-22 21:45:09.091 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/1002'
+2023-10-22 21:45:09.091 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/1002'
+2023-10-22 21:45:09.091 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)'
+2023-10-22 21:45:09.091 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-22 21:45:09.091 +03:00 [INF] Executing endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)'
+2023-10-22 21:45:09.091 +03:00 [INF] Route matched with {action = "DeleteVilla", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Test_API.Models.APIResponse]] DeleteVilla(Int32) on controller Test_API.Controllers.VillaAPIController (Test_API).
+2023-10-22 21:45:09.091 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-22 21:45:09.091 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-22 21:45:09.091 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-22 21:45:09.091 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-22 21:45:09.091 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-22 21:45:09.091 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:45:09.106 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-22 21:45:09.107 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:45:09.107 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-10-22 21:45:09.107 +03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-10-22 21:45:09.107 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-10-22 21:45:09.107 +03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-10-22 21:45:09.107 +03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-10-22 21:45:09.107 +03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-10-22 21:45:09.112 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:45:09.112 +03:00 [DBG] Creating DbConnection.
+2023-10-22 21:45:09.112 +03:00 [DBG] Created DbConnection. (0ms).
+2023-10-22 21:45:09.112 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:45:09.112 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:45:09.112 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:45:09.112 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:45:09.112 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-10-22 21:45:09.167 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-10-22 21:45:09.167 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:45:09.168 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:45:09.168 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 0ms reading results.
+2023-10-22 21:45:09.168 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:45:09.168 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 21:45:09.168 +03:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:45:09.168 +03:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2023-10-22 21:45:09.168 +03:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-10-22 21:45:09.169 +03:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-10-22 21:45:09.169 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:45:09.169 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:45:09.170 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:45:09.170 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:45:09.170 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:45:09.170 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Villas]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-10-22 21:45:09.203 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Villas]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-10-22 21:45:09.204 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:45:09.204 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 0ms reading results.
+2023-10-22 21:45:09.204 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:45:09.204 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 21:45:09.204 +03:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:45:09.204 +03:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2023-10-22 21:45:09.205 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-10-22 21:45:09.205 +03:00 [DBG] No information found on request to perform content negotiation.
+2023-10-22 21:45:09.205 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-22 21:45:09.205 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-22 21:45:09.205 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-22 21:45:09.205 +03:00 [INF] Executing OkObjectResult, writing value of type 'Test_API.Models.APIResponse'.
+2023-10-22 21:45:09.205 +03:00 [INF] Executed action Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API) in 113.7842ms
+2023-10-22 21:45:09.205 +03:00 [INF] Executed endpoint 'Test_API.Controllers.VillaAPIController.DeleteVilla (Test_API)'
+2023-10-22 21:45:09.205 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" completed keep alive response.
+2023-10-22 21:45:09.205 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-22 21:45:09.206 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:45:09.206 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-22 21:45:09.206 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7034/api/VillaAPI/1002 - - - 200 70 application/json;+charset=utf-8 116.1173ms
+2023-10-22 21:46:28.987 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7034/api/VillaAPI application/json-patch+json 136
+2023-10-22 21:46:28.988 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-10-22 21:46:28.988 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-10-22 21:46:28.988 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)'
+2023-10-22 21:46:28.988 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-22 21:46:28.988 +03:00 [INF] Executing endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)'
+2023-10-22 21:46:28.988 +03:00 [INF] Route matched with {action = "CreateVilla", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Test_API.Models.APIResponse]] CreateVilla(Test_API.Models.Dto.VillaCreateDTO) on controller Test_API.Controllers.VillaAPIController (Test_API).
+2023-10-22 21:46:28.988 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-22 21:46:28.988 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-22 21:46:28.988 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-22 21:46:28.988 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-22 21:46:28.988 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-22 21:46:28.988 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:46:28.990 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-10-22 21:46:28.991 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.VillaAPIController (Test_API)
+2023-10-22 21:46:28.992 +03:00 [DBG] Attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO' ...
+2023-10-22 21:46:28.992 +03:00 [DBG] Attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO' using the name '' in request data ...
+2023-10-22 21:46:28.992 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-10-22 21:46:28.992 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-10-22 21:46:28.992 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A", Request id "0HMUJ5RGVNV5A:00000006": started reading request body.
+2023-10-22 21:46:28.992 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A", Request id "0HMUJ5RGVNV5A:00000006": done reading request body.
+2023-10-22 21:46:28.992 +03:00 [DBG] Done attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO'.
+2023-10-22 21:46:28.993 +03:00 [DBG] Done attempting to bind parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO'.
+2023-10-22 21:46:28.993 +03:00 [DBG] Attempting to validate the bound parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO' ...
+2023-10-22 21:46:28.993 +03:00 [DBG] Done attempting to validate the bound parameter 'createDTO' of type 'Test_API.Models.Dto.VillaCreateDTO'.
+2023-10-22 21:46:28.994 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:46:28.994 +03:00 [DBG] Creating DbConnection.
+2023-10-22 21:46:28.994 +03:00 [DBG] Created DbConnection. (0ms).
+2023-10-22 21:46:28.994 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:46:28.994 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:46:28.994 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:46:28.994 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:46:28.995 +03:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE LOWER([v].[Name]) = @__ToLower_0
+2023-10-22 21:46:29.023 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE LOWER([v].[Name]) = @__ToLower_0
+2023-10-22 21:46:29.023 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:46:29.024 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 0ms reading results.
+2023-10-22 21:46:29.024 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:46:29.024 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 21:46:29.026 +03:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'Id.Villa'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:46:29.026 +03:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:46:29.026 +03:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2023-10-22 21:46:29.026 +03:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-10-22 21:46:29.026 +03:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-10-22 21:46:29.027 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:46:29.027 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:46:29.027 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-22 21:46:29.027 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:46:29.027 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-22 21:46:29.027 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Villas] ([Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-10-22 21:46:29.106 +03:00 [INF] Executed DbCommand (31ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Villas] ([Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-10-22 21:46:29.106 +03:00 [DBG] The foreign key property 'Villa.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-10-22 21:46:29.106 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:46:29.106 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 0ms reading results.
+2023-10-22 21:46:29.106 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:46:29.107 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-10-22 21:46:29.107 +03:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-22 21:46:29.107 +03:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2023-10-22 21:46:29.107 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-10-22 21:46:29.107 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-22 21:46:29.107 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-22 21:46:29.107 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-22 21:46:29.107 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-22 21:46:29.107 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-22 21:46:29.107 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Test_API.Models.APIResponse'.
+2023-10-22 21:46:29.108 +03:00 [DBG] Found the endpoints ["Test_API.Controllers.VillaAPIController.GetVilla (Test_API)"] for address GetVilla(id=[1003])
+2023-10-22 21:46:29.108 +03:00 [DBG] Successfully processed template api/VillaAPI/{id:int} for Test_API.Controllers.VillaAPIController.GetVilla (Test_API) resulting in /api/VillaAPI/1003 and 
+2023-10-22 21:46:29.108 +03:00 [DBG] Link generation succeeded for endpoints ["Test_API.Controllers.VillaAPIController.GetVilla (Test_API)"] with result /api/VillaAPI/1003
+2023-10-22 21:46:29.108 +03:00 [INF] Executed action Test_API.Controllers.VillaAPIController.CreateVilla (Test_API) in 120.1903ms
+2023-10-22 21:46:29.108 +03:00 [INF] Executed endpoint 'Test_API.Controllers.VillaAPIController.CreateVilla (Test_API)'
+2023-10-22 21:46:29.108 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" completed keep alive response.
+2023-10-22 21:46:29.109 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-10-22 21:46:29.109 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-10-22 21:46:29.109 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-22 21:46:29.109 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7034/api/VillaAPI application/json-patch+json 136 - 201 185 application/json;+charset=utf-8 121.2135ms
