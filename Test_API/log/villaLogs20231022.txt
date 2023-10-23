@@ -2514,3 +2514,7 @@ VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
 2023-10-22 21:46:29.109 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
 2023-10-22 21:46:29.109 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
 2023-10-22 21:46:29.109 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7034/api/VillaAPI application/json-patch+json 136 - 201 185 application/json;+charset=utf-8 121.2135ms
+2023-10-22 22:03:13.724 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" received FIN.
+2023-10-22 22:03:13.729 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" disconnecting.
+2023-10-22 22:03:13.731 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" stopped.
+2023-10-22 22:03:13.732 +03:00 [DBG] Connection id "0HMUJ5RGVNV5A" sending FIN because: "The Socket transport's send loop completed gracefully."
