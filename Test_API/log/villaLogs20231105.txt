@@ -1,0 +1,8 @@
+2023-11-05 00:05:58.528 +03:00 [DBG] Connection id "0HMUTF1OMRDT6" received FIN.
+2023-11-05 00:05:58.556 +03:00 [DBG] Connection id "0HMUTF1OMRDT4" received FIN.
+2023-11-05 00:05:58.562 +03:00 [DBG] Connection id "0HMUTF1OMRDT6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-05 00:05:58.562 +03:00 [DBG] Connection id "0HMUTF1OMRDT4" disconnecting.
+2023-11-05 00:05:58.562 +03:00 [DBG] Connection id "0HMUTF1OMRDT6" disconnecting.
+2023-11-05 00:05:58.562 +03:00 [DBG] Connection id "0HMUTF1OMRDT4" stopped.
+2023-11-05 00:05:58.589 +03:00 [DBG] Connection id "0HMUTF1OMRDT4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-05 00:05:58.590 +03:00 [DBG] Connection id "0HMUTF1OMRDT6" stopped.

@@ -15,6 +15,7 @@ namespace Test_API.Repository
         public Repository(ApplicationDbContext db)
         {
             _db = db;
+          //  _db.VillaNumbers.Include(u => u.Villa).ToList();
             this.dbSet = _db.Set<T>();
         }
 
@@ -34,6 +35,14 @@ namespace Test_API.Repository
             if (filter != null)
             {
                 query = query.Where(filter);
+
+                if(includeProperties!=null)
+                {
+                    foreach(var includeProp in includeProperties.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+                    {
+                        query = query.Include(includeProp);
+                    }
+                }
             }
             return await query.FirstOrDefaultAsync();
         }
@@ -44,6 +53,14 @@ namespace Test_API.Repository
             if (filter != null)
             {
                 query = query.Where(filter);
+            }
+
+            if (includeProperties != null)
+            {
+                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProp);
+                }
             }
             return await query.ToListAsync();
         }
