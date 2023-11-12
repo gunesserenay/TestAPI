@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -35,6 +36,7 @@ namespace Test_API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillas()
         {
@@ -59,6 +61,7 @@ namespace Test_API.Controllers
 
         //  [HttpGet("id")]
         [HttpGet("{id:int}", Name = "GetVilla")]
+        [Authorize(Roles = "admin")]
         //[ProducesResponseType(200)]
         //[ProducesResponseType(400)]
         //[ProducesResponseType(404)]
@@ -96,7 +99,10 @@ namespace Test_API.Controllers
             return _response;
 
         }
+
+
         [HttpPost]
+        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -152,6 +158,7 @@ namespace Test_API.Controllers
         }
 
         [HttpDelete("{id:int}", Name = "DeleteVilla")]
+        [Authorize(Roles = "CUSTOM")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
