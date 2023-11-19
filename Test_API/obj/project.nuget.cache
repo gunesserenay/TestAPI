@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WRWp+c5nJVn33wrQPd1pYblQr5Q8M2D55qgtWr1pS7qicuEGLTmr8YkNoXymio3YKwSLDrnT8IQ+pxBqxucZ1g==",
+  "dgSpecHash": "U/WEk3daCzmd4UUY9sVItsEwyEirG/0E8Jx/ciAtG57BEeFLEHMxkbuNxyMAGQUYymsHjAsDsysEeDB3F+rgxQ==",
   "success": true,
   "projectFilePath": "/Users/development1001/Projects/TestAPI/Test_API/Test_API.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,8 @@
     "/Users/development1001/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.14/microsoft.aspnetcore.authentication.jwtbearer.7.0.14.nupkg.sha512",
     "/Users/development1001/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.0/microsoft.aspnetcore.jsonpatch.8.0.0.nupkg.sha512",
     "/Users/development1001/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/7.0.12/microsoft.aspnetcore.mvc.newtonsoftjson.7.0.12.nupkg.sha512",
+    "/Users/development1001/.nuget/packages/microsoft.aspnetcore.mvc.versioning/5.1.0/microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "/Users/development1001/.nuget/packages/microsoft.aspnetcore.mvc.versioning.apiexplorer/5.1.0/microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "/Users/development1001/.nuget/packages/microsoft.aspnetcore.openapi/7.0.12/microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
     "/Users/development1001/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/development1001/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
