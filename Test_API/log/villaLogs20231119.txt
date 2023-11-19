@@ -1,0 +1,108 @@
+2023-11-19 22:30:43.437 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-19 22:30:43.480 +03:00 [DBG] Hosting starting
+2023-11-19 22:30:43.488 +03:00 [INF] User profile is available. Using '/Users/development1001/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-11-19 22:30:43.490 +03:00 [DBG] Reading data from file '/Users/development1001/.aspnet/DataProtection-Keys/key-2f6cb6fd-f932-483e-a4ed-09a2e8e166cc.xml'.
+2023-11-19 22:30:43.493 +03:00 [DBG] Found key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc}.
+2023-11-19 22:30:43.496 +03:00 [DBG] Considering key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc} with expiration date 2024-02-14 18:45:16Z as default key.
+2023-11-19 22:30:43.497 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-11-19 22:30:43.500 +03:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2023-11-19 22:30:43.500 +03:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2023-11-19 22:30:43.501 +03:00 [DBG] Using key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc} as the default key.
+2023-11-19 22:30:43.501 +03:00 [DBG] Key ring with default key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc} was loaded during application startup.
+2023-11-19 22:30:43.708 +03:00 [INF] Now listening on: https://localhost:7034
+2023-11-19 22:30:43.708 +03:00 [INF] Now listening on: http://localhost:5214
+2023-11-19 22:30:43.708 +03:00 [DBG] Loaded hosting startup assembly Test_API
+2023-11-19 22:30:43.708 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-19 22:30:43.708 +03:00 [INF] Hosting environment: Development
+2023-11-19 22:30:43.708 +03:00 [INF] Content root path: /Users/development1001/Projects/TestAPI/Test_API
+2023-11-19 22:30:43.708 +03:00 [DBG] Hosting started
+2023-11-19 22:30:43.739 +03:00 [DBG] Connection id "0HMV96O2SB1UD" accepted.
+2023-11-19 22:30:43.740 +03:00 [DBG] Connection id "0HMV96O2SB1UD" started.
+2023-11-19 22:30:44.703 +03:00 [DBG] Connection id "0HMV96O2SB1UD" received FIN.
+2023-11-19 22:30:44.711 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-19 22:30:44.743 +03:00 [DBG] Connection id "0HMV96O2SB1UD" stopped.
+2023-11-19 22:30:44.747 +03:00 [DBG] Connection id "0HMV96O2SB1UD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-19 22:30:44.800 +03:00 [DBG] Connection id "0HMV96O2SB1UE" accepted.
+2023-11-19 22:30:44.800 +03:00 [DBG] Connection id "0HMV96O2SB1UE" started.
+2023-11-19 22:30:44.864 +03:00 [DBG] Connection 0HMV96O2SB1UE established using the following protocol: "Tls12"
+2023-11-19 22:30:44.888 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger - -
+2023-11-19 22:30:44.888 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-19 22:30:44.899 +03:00 [DBG] No candidates found for the request path '/swagger'
+2023-11-19 22:30:44.899 +03:00 [DBG] Request did not match any endpoints
+2023-11-19 22:30:44.913 +03:00 [DBG] Connection id "0HMV96O2SB1UE" completed keep alive response.
+2023-11-19 22:30:44.914 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger - - - 301 0 - 26.7342ms
+2023-11-19 22:30:44.915 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/index.html - -
+2023-11-19 22:30:44.915 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-11-19 22:30:44.915 +03:00 [DBG] Request did not match any endpoints
+2023-11-19 22:30:44.947 +03:00 [DBG] Connection id "0HMV96O2SB1UE" completed keep alive response.
+2023-11-19 22:30:44.948 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 32.5212ms
+2023-11-19 22:30:45.002 +03:00 [DBG] Connection id "0HMV96O2SB1UF" accepted.
+2023-11-19 22:30:45.002 +03:00 [DBG] Connection id "0HMV96O2SB1UF" started.
+2023-11-19 22:30:45.002 +03:00 [DBG] Connection id "0HMV96O2SB1UG" accepted.
+2023-11-19 22:30:45.002 +03:00 [DBG] Connection id "0HMV96O2SB1UG" started.
+2023-11-19 22:30:45.003 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui.css - -
+2023-11-19 22:30:45.003 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-11-19 22:30:45.003 +03:00 [DBG] Request did not match any endpoints
+2023-11-19 22:30:45.008 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-19 22:30:45.008 +03:00 [DBG] Connection id "0HMV96O2SB1UE" completed keep alive response.
+2023-11-19 22:30:45.008 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui.css - - - 200 144929 text/css 5.1452ms
+2023-11-19 22:30:45.008 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-bundle.js - -
+2023-11-19 22:30:45.009 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-11-19 22:30:45.009 +03:00 [DBG] Request did not match any endpoints
+2023-11-19 22:30:45.172 +03:00 [DBG] Connection 0HMV96O2SB1UG established using the following protocol: "Tls12"
+2023-11-19 22:30:45.172 +03:00 [DBG] Connection 0HMV96O2SB1UF established using the following protocol: "Tls12"
+2023-11-19 22:30:45.298 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - -
+2023-11-19 22:30:45.324 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-11-19 22:30:45.324 +03:00 [DBG] Request did not match any endpoints
+2023-11-19 22:30:45.431 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-19 22:30:45.433 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-19 22:30:45.433 +03:00 [DBG] Connection id "0HMV96O2SB1UE" completed keep alive response.
+2023-11-19 22:30:45.433 +03:00 [DBG] Connection id "0HMV96O2SB1UG" completed keep alive response.
+2023-11-19 22:30:45.434 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 424.7589ms
+2023-11-19 22:30:45.434 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 136.6712ms
+2023-11-19 22:30:45.463 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-11-19 22:30:45.464 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-11-19 22:30:45.464 +03:00 [DBG] Request did not match any endpoints
+2023-11-19 22:30:45.469 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/favicon-32x32.png - -
+2023-11-19 22:30:45.470 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-11-19 22:30:45.470 +03:00 [DBG] Request did not match any endpoints
+2023-11-19 22:30:45.470 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-19 22:30:45.470 +03:00 [DBG] Connection id "0HMV96O2SB1UE" completed keep alive response.
+2023-11-19 22:30:45.470 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/favicon-32x32.png - - - 200 628 image/png 0.6287ms
+2023-11-19 22:30:45.556 +03:00 [DBG] Connection id "0HMV96O2SB1UG" completed keep alive response.
+2023-11-19 22:30:45.556 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.1989ms
+2023-11-19 22:30:55.760 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/api/VillaAPI - -
+2023-11-19 22:30:55.765 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-11-19 22:30:55.769 +03:00 [DBG] Endpoint 'Test_API.Controllers.VillaAPIController.GetVillas (Test_API)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-11-19 22:30:55.778 +03:00 [INF] Request did not specify a service API version, but multiple candidate actions were found. Candidate actions: Test_API.Controllers.VillaAPIController.GetVillas (Test_API)
+2023-11-19 22:30:55.779 +03:00 [DBG] Request matched endpoint 'null'
+2023-11-19 22:30:55.779 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-11-19 22:30:55.816 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-11-19 22:30:55.817 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2023-11-19 22:30:55.820 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-11-19 22:30:55.822 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-11-19 22:30:55.822 +03:00 [WRN] An error occurred while trying to create a DataContractSerializer for the type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+System.Runtime.Serialization.InvalidDataContractException: Type '<>f__AnonymousType0`1[<>f__AnonymousType1`3[System.String,System.String,<>f__AnonymousType2`1[System.String]]]' cannot be serialized. Consider marking it with the DataContractAttribute attribute, and marking all of its members you want serialized with the DataMemberAttribute attribute. Alternatively, you can ensure that the type is public and has a parameterless constructor - all public members of the type will then be serialized, and no attributes will be required.
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.ThrowInvalidDataContractException(String message, Type type)
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.CreateDataContract(Type type)
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.CreateDataContract(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.GetDataContractSkipValidation(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.DataContracts.DataContract.GetDataContract(RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.XsdDataContractExporter.GetRootElementName(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.CreateSerializer(Type type)
+2023-11-19 22:30:55.823 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-11-19 22:30:55.823 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-11-19 22:30:55.823 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-11-19 22:30:55.823 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-11-19 22:30:55.823 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2023-11-19 22:30:55.873 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2023-11-19 22:30:55.873 +03:00 [DBG] Connection id "0HMV96O2SB1UG" completed keep alive response.
+2023-11-19 22:30:55.873 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/api/VillaAPI - - - 400 123 application/json;+charset=utf-8 113.0800ms
+2023-11-19 22:33:42.617 +03:00 [DBG] Connection id "0HMV96O2SB1UF" received FIN.
+2023-11-19 22:33:42.647 +03:00 [DBG] Connection id "0HMV96O2SB1UF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-19 22:33:42.649 +03:00 [DBG] Connection id "0HMV96O2SB1UF" disconnecting.
+2023-11-19 22:33:42.652 +03:00 [DBG] Connection id "0HMV96O2SB1UF" stopped.

@@ -91,3 +91,5 @@
 /Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/JWT.dll
 /Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.Versioning.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
