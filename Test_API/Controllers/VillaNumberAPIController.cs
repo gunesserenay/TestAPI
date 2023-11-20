@@ -14,9 +14,10 @@ using Test_API.Repository.IRepository;
 
 namespace Test_API.Controllers
 {
-    [Route("api/VillaNumberAPI")]
+    [Route("api/v{version:apiVersion}/VillaNumberAPI")]
     [ApiController]
     [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
 
     public class VillaNumberAPIController : ControllerBase
     {
@@ -35,6 +36,7 @@ namespace Test_API.Controllers
 
 
         [HttpGet("GetString")]
+        [MapToApiVersion("2.0")]
         public IEnumerable<string> Get()
         {
             return new string[] { "String1", "string2" };
