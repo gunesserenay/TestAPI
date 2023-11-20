@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{FF44D884-001A-4F5D-800F-A4803CDBD1D1}|https">
+  <MonoDevelop.Ide.ItemProperties.Test__API PreferredExecutionTarget="/Applications/Opera.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test_API/Controllers/VillaAPIController.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_API/Program.cs">
     <Files>
       <File FileName="Test_API/Controllers/VillaNumberAPIController.cs" />
       <File FileName="Test_API/Models/Dto/VillaNumberCreateDTO.cs" />
@@ -24,8 +27,8 @@
       <File FileName="Test_API/Models/Dto/VillaUpdateDTO.cs" />
       <File FileName="Test_API/Repository/IRepository/IVillaRepository.cs" />
       <File FileName="Test_API/Repository/VillaRepository.cs" />
-      <File FileName="Test_API/Program.cs" Line="81" Column="8" />
-      <File FileName="Test_API/appsettings.json" Line="1" Column="1" />
+      <File FileName="Test_API/Program.cs" Line="28" Column="54" />
+      <File FileName="Test_API/appsettings.json" />
       <File FileName="Test_API/Models/LocalUser.cs" />
       <File FileName="Test_API/Models/Dto/LoginRequestDTO.cs" />
       <File FileName="Test_API/Models/Dto/LoginResponseDTO.cs" />
@@ -37,11 +40,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TestAPI">
+          <Node name="TestAPI" expanded="True">
             <Node name="Test_API" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="VillaAPIController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -49,7 +50,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Test__API PreferredExecutionTarget="/Applications/Opera.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>

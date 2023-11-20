@@ -16,7 +16,7 @@ namespace Test_API.Controllers
 {
     [Route("api/VillaNumberAPI")]
     [ApiController]
-   // [ApiVersion("1.0")]
+    [ApiVersion("1.0")]
 
     public class VillaNumberAPIController : ControllerBase
     {
