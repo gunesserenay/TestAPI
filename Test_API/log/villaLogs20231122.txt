@@ -393,3 +393,50 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2023-11-22 17:49:48.583 +03:00 [DBG] Request did not match any endpoints
 2023-11-22 17:49:48.591 +03:00 [DBG] Connection id "0HMVBD91M5C0I" completed keep alive response.
 2023-11-22 17:49:48.592 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 9.0182ms
+2023-11-22 18:00:18.974 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-22 18:00:19.021 +03:00 [DBG] Hosting starting
+2023-11-22 18:00:19.031 +03:00 [INF] User profile is available. Using '/Users/development1001/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-11-22 18:00:19.032 +03:00 [DBG] Reading data from file '/Users/development1001/.aspnet/DataProtection-Keys/key-2f6cb6fd-f932-483e-a4ed-09a2e8e166cc.xml'.
+2023-11-22 18:00:19.036 +03:00 [DBG] Found key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc}.
+2023-11-22 18:00:19.040 +03:00 [DBG] Considering key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc} with expiration date 2024-02-14 18:45:16Z as default key.
+2023-11-22 18:00:19.040 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-11-22 18:00:19.043 +03:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2023-11-22 18:00:19.043 +03:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2023-11-22 18:00:19.045 +03:00 [DBG] Using key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc} as the default key.
+2023-11-22 18:00:19.045 +03:00 [DBG] Key ring with default key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc} was loaded during application startup.
+2023-11-22 18:00:19.241 +03:00 [INF] Now listening on: https://localhost:7034
+2023-11-22 18:00:19.266 +03:00 [INF] Now listening on: http://localhost:5214
+2023-11-22 18:00:19.266 +03:00 [DBG] Loaded hosting startup assembly Test_API
+2023-11-22 18:00:19.267 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-22 18:00:19.267 +03:00 [INF] Hosting environment: Development
+2023-11-22 18:00:19.267 +03:00 [INF] Content root path: /Users/development1001/Projects/TestAPI/Test_API
+2023-11-22 18:00:19.267 +03:00 [DBG] Hosting started
+2023-11-22 18:00:19.325 +03:00 [DBG] Connection id "0HMVBDEV836K1" accepted.
+2023-11-22 18:00:19.325 +03:00 [DBG] Connection id "0HMVBDEV836K1" started.
+2023-11-22 18:00:20.255 +03:00 [DBG] Connection id "0HMVBDEV836K1" received FIN.
+2023-11-22 18:00:20.265 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-22 18:00:20.308 +03:00 [DBG] Connection id "0HMVBDEV836K2" accepted.
+2023-11-22 18:00:20.338 +03:00 [DBG] Connection id "0HMVBDEV836K2" started.
+2023-11-22 18:00:20.344 +03:00 [DBG] Connection id "0HMVBDEV836K1" stopped.
+2023-11-22 18:00:20.347 +03:00 [DBG] Connection id "0HMVBDEV836K1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-22 18:00:20.456 +03:00 [DBG] Connection 0HMVBDEV836K2 established using the following protocol: "Tls12"
+2023-11-22 18:00:20.485 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/index.html - -
+2023-11-22 18:00:20.486 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-22 18:00:20.497 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-11-22 18:00:20.498 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:00:20.542 +03:00 [DBG] Connection id "0HMVBDEV836K2" completed keep alive response.
+2023-11-22 18:00:20.543 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 58.7245ms
+2023-11-22 18:00:20.683 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-11-22 18:00:20.683 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-11-22 18:00:20.684 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:00:20.763 +03:00 [DBG] Connection id "0HMVBDEV836K2" completed keep alive response.
+2023-11-22 18:00:20.763 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.4802ms
+2023-11-22 18:00:24.498 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/v2/swagger.json - -
+2023-11-22 18:00:24.498 +03:00 [DBG] No candidates found for the request path '/swagger/v2/swagger.json'
+2023-11-22 18:00:24.498 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:00:24.501 +03:00 [DBG] Connection id "0HMVBDEV836K2" completed keep alive response.
+2023-11-22 18:00:24.501 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 3.6235ms

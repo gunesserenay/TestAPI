@@ -12,13 +12,12 @@ using Test_API.Models;
 using Test_API.Models.Dto; 
 using Test_API.Repository.IRepository;
 
-namespace Test_API.Controllers
+namespace Test_API.Controllers.V1
 {
     [Route("api/v{version:apiVersion}/VillaNumberAPI")]
     [ApiController]
     [ApiVersion("1.0")]
-    [ApiVersion("2.0")]
-
+   
     public class VillaNumberAPIController : ControllerBase
     {
         protected APIResponse _response;
@@ -34,13 +33,6 @@ namespace Test_API.Controllers
             _dbVilla = dbVilla;
         }
 
-
-        [HttpGet("GetString")]
-        [MapToApiVersion("2.0")]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "String1", "string2" };
-        }
 
         [HttpGet]
         //[MapToApiVersion("1.0")]

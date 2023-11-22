@@ -35,6 +35,8 @@
     <None Remove="Data\" />
     <None Remove="Repository\" />
     <None Remove="Repository\IRepository\" />
+    <None Remove="Controllers\V1\" />
+    <None Remove="Controllers\V2\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -43,5 +45,7 @@
     <Folder Include="Data\" />
     <Folder Include="Repository\" />
     <Folder Include="Repository\IRepository\" />
+    <Folder Include="Controllers\V1\" />
+    <Folder Include="Controllers\V2\" />
   </ItemGroup>
 </Project>
