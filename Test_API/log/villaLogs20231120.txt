@@ -619,3 +619,7 @@ INNER JOIN [Villas] AS [v0] ON [v].[VillaID] = [v0].[Id]
 2023-11-20 23:45:52.478 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
 2023-11-20 23:45:52.478 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
 2023-11-20 23:45:52.478 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/api/v1/VillaNumberAPI - - - 200 796 application/json;+charset=utf-8 16.4552ms
+2023-11-20 23:47:03.077 +03:00 [DBG] Connection id "0HMVA1554FC1E" received FIN.
+2023-11-20 23:47:03.082 +03:00 [DBG] Connection id "0HMVA1554FC1E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-20 23:47:03.104 +03:00 [DBG] Connection id "0HMVA1554FC1E" disconnecting.
+2023-11-20 23:47:03.108 +03:00 [DBG] Connection id "0HMVA1554FC1E" stopped.

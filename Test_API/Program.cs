@@ -30,6 +30,7 @@ builder.Services.AddApiVersioning(options =>
 builder.Services.AddVersionedApiExplorer(options =>
 {
     options.GroupNameFormat = "'v'VVV";
+    options.SubstituteApiVersionInUrl = true;
 });
 
 var key = builder.Configuration.GetValue<string>("ApiSettings:Secret");

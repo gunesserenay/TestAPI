@@ -14,8 +14,10 @@ using Test_API.Repository.IRepository;
 namespace Test_API.Controllers
 {
     // [Route("api/[controller]")]
-    [Route("api/VillaAPI")]
+    // [Route("api/VillaAPI")]
+    [Route("api/v{version:apiVersion}/VillaAPI")]
     [ApiController]
+    [ApiVersion("1.0")]
 
     public class VillaAPIController : ControllerBase
     {
