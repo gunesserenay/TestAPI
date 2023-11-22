@@ -440,3 +440,144 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2023-11-22 18:00:24.498 +03:00 [DBG] Request did not match any endpoints
 2023-11-22 18:00:24.501 +03:00 [DBG] Connection id "0HMVBDEV836K2" completed keep alive response.
 2023-11-22 18:00:24.501 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 3.6235ms
+2023-11-22 18:06:32.704 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-22 18:06:32.753 +03:00 [DBG] Hosting starting
+2023-11-22 18:06:32.761 +03:00 [INF] User profile is available. Using '/Users/development1001/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-11-22 18:06:32.763 +03:00 [DBG] Reading data from file '/Users/development1001/.aspnet/DataProtection-Keys/key-2f6cb6fd-f932-483e-a4ed-09a2e8e166cc.xml'.
+2023-11-22 18:06:32.766 +03:00 [DBG] Found key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc}.
+2023-11-22 18:06:32.770 +03:00 [DBG] Considering key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc} with expiration date 2024-02-14 18:45:16Z as default key.
+2023-11-22 18:06:32.770 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-11-22 18:06:32.773 +03:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2023-11-22 18:06:32.773 +03:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2023-11-22 18:06:32.775 +03:00 [DBG] Using key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc} as the default key.
+2023-11-22 18:06:32.775 +03:00 [DBG] Key ring with default key {2f6cb6fd-f932-483e-a4ed-09a2e8e166cc} was loaded during application startup.
+2023-11-22 18:06:32.948 +03:00 [INF] Now listening on: https://localhost:7034
+2023-11-22 18:06:32.949 +03:00 [INF] Now listening on: http://localhost:5214
+2023-11-22 18:06:32.949 +03:00 [DBG] Loaded hosting startup assembly Test_API
+2023-11-22 18:06:32.950 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-22 18:06:32.950 +03:00 [INF] Hosting environment: Development
+2023-11-22 18:06:32.950 +03:00 [INF] Content root path: /Users/development1001/Projects/TestAPI/Test_API
+2023-11-22 18:06:32.950 +03:00 [DBG] Hosting started
+2023-11-22 18:06:32.978 +03:00 [DBG] Connection id "0HMVBDIEJH8H9" accepted.
+2023-11-22 18:06:32.979 +03:00 [DBG] Connection id "0HMVBDIEJH8H9" started.
+2023-11-22 18:06:33.979 +03:00 [DBG] Connection id "0HMVBDIEJH8H9" received FIN.
+2023-11-22 18:06:33.989 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-22 18:06:34.028 +03:00 [DBG] Connection id "0HMVBDIEJH8HA" accepted.
+2023-11-22 18:06:34.040 +03:00 [DBG] Connection id "0HMVBDIEJH8HA" started.
+2023-11-22 18:06:34.050 +03:00 [DBG] Connection id "0HMVBDIEJH8H9" stopped.
+2023-11-22 18:06:34.054 +03:00 [DBG] Connection id "0HMVBDIEJH8H9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-22 18:06:34.121 +03:00 [DBG] Connection 0HMVBDIEJH8HA established using the following protocol: "Tls12"
+2023-11-22 18:06:34.145 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger - -
+2023-11-22 18:06:34.145 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-22 18:06:34.155 +03:00 [DBG] No candidates found for the request path '/swagger'
+2023-11-22 18:06:34.155 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:06:34.165 +03:00 [DBG] Connection id "0HMVBDIEJH8HA" completed keep alive response.
+2023-11-22 18:06:34.166 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger - - - 301 0 - 21.9830ms
+2023-11-22 18:06:34.167 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/index.html - -
+2023-11-22 18:06:34.167 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-11-22 18:06:34.167 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:06:34.201 +03:00 [DBG] Connection id "0HMVBDIEJH8HA" completed keep alive response.
+2023-11-22 18:06:34.201 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 33.9360ms
+2023-11-22 18:06:34.260 +03:00 [DBG] Connection id "0HMVBDIEJH8HB" accepted.
+2023-11-22 18:06:34.260 +03:00 [DBG] Connection id "0HMVBDIEJH8HB" started.
+2023-11-22 18:06:34.261 +03:00 [DBG] Connection id "0HMVBDIEJH8HC" accepted.
+2023-11-22 18:06:34.261 +03:00 [DBG] Connection id "0HMVBDIEJH8HC" started.
+2023-11-22 18:06:34.261 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui.css - -
+2023-11-22 18:06:34.261 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-11-22 18:06:34.261 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:06:34.417 +03:00 [DBG] Connection 0HMVBDIEJH8HC established using the following protocol: "Tls12"
+2023-11-22 18:06:34.417 +03:00 [DBG] Connection 0HMVBDIEJH8HB established using the following protocol: "Tls12"
+2023-11-22 18:06:34.418 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - -
+2023-11-22 18:06:34.418 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-bundle.js - -
+2023-11-22 18:06:34.418 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-11-22 18:06:34.418 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-11-22 18:06:34.418 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:06:34.418 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:06:34.420 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-22 18:06:34.420 +03:00 [DBG] Connection id "0HMVBDIEJH8HA" completed keep alive response.
+2023-11-22 18:06:34.420 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui.css - - - 200 144929 text/css 158.5749ms
+2023-11-22 18:06:34.564 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-22 18:06:34.615 +03:00 [DBG] Connection id "0HMVBDIEJH8HB" completed keep alive response.
+2023-11-22 18:06:34.639 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 221.0361ms
+2023-11-22 18:06:34.641 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-22 18:06:34.642 +03:00 [DBG] Connection id "0HMVBDIEJH8HC" completed keep alive response.
+2023-11-22 18:06:34.642 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 223.6596ms
+2023-11-22 18:06:34.744 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-11-22 18:06:34.744 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-11-22 18:06:34.744 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:06:34.751 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/favicon-32x32.png - -
+2023-11-22 18:06:34.751 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-11-22 18:06:34.751 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:06:34.751 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-22 18:06:34.751 +03:00 [DBG] Connection id "0HMVBDIEJH8HB" completed keep alive response.
+2023-11-22 18:06:34.751 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/favicon-32x32.png - - - 200 628 image/png 0.8504ms
+2023-11-22 18:06:34.845 +03:00 [DBG] Connection id "0HMVBDIEJH8HC" completed keep alive response.
+2023-11-22 18:06:34.845 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.0109ms
+2023-11-22 18:06:40.817 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/api/v1/VillaNumberAPI/GetString - -
+2023-11-22 18:06:40.824 +03:00 [DBG] 2 candidate(s) found for the request path '/api/v1/VillaNumberAPI/GetString'
+2023-11-22 18:06:40.828 +03:00 [DBG] Endpoint 'Test_API.Controllers.V2.VillaNumberAPIController.Get (Test_API)' with route pattern 'api/v{version:apiVersion}/VillaNumberAPI/GetString' is valid for the request path '/api/v1/VillaNumberAPI/GetString'
+2023-11-22 18:06:40.828 +03:00 [DBG] Endpoint 'Test_API.Controllers.V1.VillaNumberAPIController.Get (Test_API)' with route pattern 'api/v{version:apiVersion}/VillaNumberAPI/GetString' is valid for the request path '/api/v1/VillaNumberAPI/GetString'
+2023-11-22 18:06:40.832 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.V1.VillaNumberAPIController.Get (Test_API)'
+2023-11-22 18:06:40.832 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-11-22 18:06:40.879 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-11-22 18:06:40.881 +03:00 [INF] Executing endpoint 'Test_API.Controllers.V1.VillaNumberAPIController.Get (Test_API)'
+2023-11-22 18:06:40.887 +03:00 [INF] Route matched with {action = "Get", controller = "VillaNumberAPI"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] Get() on controller Test_API.Controllers.V1.VillaNumberAPIController (Test_API).
+2023-11-22 18:06:40.887 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-11-22 18:06:40.887 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-11-22 18:06:40.887 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-11-22 18:06:40.887 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-11-22 18:06:40.887 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-11-22 18:06:40.888 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.V1.VillaNumberAPIController (Test_API)
+2023-11-22 18:06:40.945 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-11-22 18:06:41.178 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-11-22 18:06:41.207 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.V1.VillaNumberAPIController (Test_API)
+2023-11-22 18:06:41.208 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-11-22 18:06:41.209 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-11-22 18:06:41.209 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-11-22 18:06:41.209 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-11-22 18:06:41.209 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-11-22 18:06:41.209 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-11-22 18:06:41.209 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String[]'.
+2023-11-22 18:06:41.238 +03:00 [INF] Executed action Test_API.Controllers.V1.VillaNumberAPIController.Get (Test_API) in 349.7197ms
+2023-11-22 18:06:41.238 +03:00 [INF] Executed endpoint 'Test_API.Controllers.V1.VillaNumberAPIController.Get (Test_API)'
+2023-11-22 18:06:41.238 +03:00 [DBG] Connection id "0HMVBDIEJH8HC" completed keep alive response.
+2023-11-22 18:06:41.239 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-11-22 18:06:41.240 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/api/v1/VillaNumberAPI/GetString - - - 200 21 application/json;+charset=utf-8 423.5100ms
+2023-11-22 18:06:47.905 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/swagger/v2/swagger.json - -
+2023-11-22 18:06:47.906 +03:00 [DBG] No candidates found for the request path '/swagger/v2/swagger.json'
+2023-11-22 18:06:47.906 +03:00 [DBG] Request did not match any endpoints
+2023-11-22 18:06:47.909 +03:00 [DBG] Connection id "0HMVBDIEJH8HC" completed keep alive response.
+2023-11-22 18:06:47.909 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 3.5670ms
+2023-11-22 18:06:53.341 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7034/api/v2/VillaNumberAPI/GetString - -
+2023-11-22 18:06:53.342 +03:00 [DBG] 2 candidate(s) found for the request path '/api/v2/VillaNumberAPI/GetString'
+2023-11-22 18:06:53.343 +03:00 [DBG] Endpoint 'Test_API.Controllers.V2.VillaNumberAPIController.Get (Test_API)' with route pattern 'api/v{version:apiVersion}/VillaNumberAPI/GetString' is valid for the request path '/api/v2/VillaNumberAPI/GetString'
+2023-11-22 18:06:53.343 +03:00 [DBG] Endpoint 'Test_API.Controllers.V1.VillaNumberAPIController.Get (Test_API)' with route pattern 'api/v{version:apiVersion}/VillaNumberAPI/GetString' is valid for the request path '/api/v2/VillaNumberAPI/GetString'
+2023-11-22 18:06:53.343 +03:00 [DBG] Request matched endpoint 'Test_API.Controllers.V2.VillaNumberAPIController.Get (Test_API)'
+2023-11-22 18:06:53.343 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-11-22 18:06:53.344 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-11-22 18:06:53.344 +03:00 [INF] Executing endpoint 'Test_API.Controllers.V2.VillaNumberAPIController.Get (Test_API)'
+2023-11-22 18:06:53.345 +03:00 [INF] Route matched with {action = "Get", controller = "VillaNumberAPI"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] Get() on controller Test_API.Controllers.V2.VillaNumberAPIController (Test_API).
+2023-11-22 18:06:53.346 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-11-22 18:06:53.346 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-11-22 18:06:53.346 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-11-22 18:06:53.346 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-11-22 18:06:53.346 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-11-22 18:06:53.346 +03:00 [DBG] Executing controller factory for controller Test_API.Controllers.V2.VillaNumberAPIController (Test_API)
+2023-11-22 18:06:53.396 +03:00 [DBG] Entity Framework Core 7.0.12 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-11-22 18:06:53.396 +03:00 [DBG] Executed controller factory for controller Test_API.Controllers.V2.VillaNumberAPIController (Test_API)
+2023-11-22 18:06:53.397 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-11-22 18:06:53.397 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-11-22 18:06:53.397 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-11-22 18:06:53.397 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-11-22 18:06:53.397 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-11-22 18:06:53.397 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-11-22 18:06:53.397 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String[]'.
+2023-11-22 18:06:53.397 +03:00 [INF] Executed action Test_API.Controllers.V2.VillaNumberAPIController.Get (Test_API) in 51.421ms
+2023-11-22 18:06:53.397 +03:00 [INF] Executed endpoint 'Test_API.Controllers.V2.VillaNumberAPIController.Get (Test_API)'
+2023-11-22 18:06:53.397 +03:00 [DBG] Connection id "0HMVBDIEJH8HC" completed keep alive response.
+2023-11-22 18:06:53.397 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-11-22 18:06:53.397 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7034/api/v2/VillaNumberAPI/GetString - - - 200 17 application/json;+charset=utf-8 56.3637ms

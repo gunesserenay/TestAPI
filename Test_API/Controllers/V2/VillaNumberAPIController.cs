@@ -38,7 +38,7 @@ namespace Test_API.Controllers.V2
       //  [MapToApiVersion("2.0")]
         public IEnumerable<string> Get()
         {
-            return new string[] { "String1", "string2" };
+            return new string[] { "Serenay", "Sun" };
         }
 
       

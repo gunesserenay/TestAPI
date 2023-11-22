@@ -15,7 +15,7 @@ namespace Test_API.Controllers
     // [Route("api/UsersAuth")]
     [Route("api/v{version:apiVersion}/UsersAuth")]
     [ApiController]
-    [ApiVersion("1.0")]
+    [ApiVersionNeutral]
     public class UserController : Controller
     {
         private readonly IUserRepository _userRepo;

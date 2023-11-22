@@ -34,6 +34,13 @@ namespace Test_API.Controllers.V1
         }
 
 
+        [HttpGet("GetString")]
+        //  [MapToApiVersion("2.0")]
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "String1", "String2" };
+        }
+
         [HttpGet]
         //[MapToApiVersion("1.0")]
         [ProducesResponseType(StatusCodes.Status200OK)]
