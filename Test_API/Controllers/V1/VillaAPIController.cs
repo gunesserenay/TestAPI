@@ -57,7 +57,7 @@ namespace Test_API.Controllers
                 }
                 else
                 {
-                    villaList = await _dbVilla.GetAllAsync(, pageSize: pageSize, pageNumber: pageNumber);
+                    villaList = await _dbVilla.GetAllAsync(pageSize: pageSize, pageNumber: pageNumber);
                 }
                 if (!string.IsNullOrEmpty(search))
                 {
