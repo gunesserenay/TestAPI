@@ -44,7 +44,7 @@ namespace Test_API.Controllers
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<ActionResult<APIResponse>> GetVillas([FromQuery(Name ="filterOccupany ")]int? occupancy, [FromQuery] string? search)
+        public async Task<ActionResult<APIResponse>> GetVillas([FromQuery(Name ="filterOccupany ")]int? occupancy, [FromQuery] string? search, int pageSize=2, int pageNumber=1)
         {
             try
             {
@@ -52,7 +52,7 @@ namespace Test_API.Controllers
                 IEnumerable<Villa> villaList;
                 if (occupancy>0)
                 {
-                    villaList = await _dbVilla.GetAllAsync(u => u.Occupancy == occupancy);
+                    villaList = await _dbVilla.GetAllAsync(u => u.Occupancy == occupancy, pageSize:pageSize,pageNumber:pageNumber);
                 }
                 else
                 {

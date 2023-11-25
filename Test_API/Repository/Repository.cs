@@ -7,7 +7,7 @@ using Test_API.Repository.IRepository;
 
 namespace Test_API.Repository
 {
-	public class Repository<T> : IRepository<T> where T :class
+    public class Repository<T> : IRepository<T> where T : class
     {
         private readonly ApplicationDbContext _db;
         internal DbSet<T> dbSet;
@@ -15,7 +15,7 @@ namespace Test_API.Repository
         public Repository(ApplicationDbContext db)
         {
             _db = db;
-          //  _db.VillaNumbers.Include(u => u.Villa).ToList();
+            //  _db.VillaNumbers.Include(u => u.Villa).ToList();
             this.dbSet = _db.Set<T>();
         }
 
@@ -36,9 +36,9 @@ namespace Test_API.Repository
             {
                 query = query.Where(filter);
 
-                if(includeProperties!=null)
+                if (includeProperties != null)
                 {
-                    foreach(var includeProp in includeProperties.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+                    foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                     {
                         query = query.Include(includeProp);
                     }
@@ -47,7 +47,7 @@ namespace Test_API.Repository
             return await query.FirstOrDefaultAsync();
         }
 
-        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
+        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null, string? includeProperties = null, int pageSize = 3, int pageNumber = 1)
         {
             IQueryable<T> query = dbSet;
             if (filter != null)
@@ -55,6 +55,14 @@ namespace Test_API.Repository
                 query = query.Where(filter);
             }
 
+            if (pageSize > 0)
+            {
+                if (pageSize > 100)
+                {
+                    pageSize = 100;
+                }
+                query = query.Skip(pageSize * (pageNumber - 1)).Take(pageSize);
+            }
             if (includeProperties != null)
             {
                 foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
@@ -76,7 +84,7 @@ namespace Test_API.Repository
             await _db.SaveChangesAsync();
         }
 
-       
+
     }
 }
 
