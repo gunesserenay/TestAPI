@@ -39,6 +39,8 @@ namespace Test_API.Controllers
 
         [HttpGet]
         [Authorize]
+        // [ResponseCache(Duration =30)]
+        [ResponseCache(CacheProfileName ="Default30")]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
