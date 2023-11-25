@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{FF44D884-001A-4F5D-800F-A4803CDBD1D1}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Test__API PreferredExecutionTarget="/Applications/Opera.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test_API/Controllers/VillaNumberAPIController.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_API/Controllers/V1/VillaNumberAPIController.cs">
     <Files>
-      <File FileName="Test_API/Controllers/VillaNumberAPIController.cs" Line="101" Column="8" />
-      <File FileName="Test_API/Models/Dto/VillaNumberCreateDTO.cs" />
+      <File FileName="Test_API/Controllers/VillaNumberAPIController.cs" Line="19" Column="39" />
       <File FileName="Test_API/Models/VillaNumber.cs" />
       <File FileName="Test_API/Models/Dto/VillaNumberDTO.cs" />
       <File FileName="Test_API/Models/Dto/VillaNumberUpdateDTO.cs" />
@@ -17,7 +17,7 @@
       <File FileName="Test_API/Repository/VillaNumberRepository.cs" />
       <File FileName="Test_API/Repository/IRepository/IRepository.cs" />
       <File FileName="Test_API/Repository/Repository.cs" />
-      <File FileName="Test_API/Controllers/VillaAPIController.cs" />
+      <File FileName="Test_API/Controllers/VillaAPIController.cs" Line="21" Column="1" />
       <File FileName="Test_API/Properties/launchSettings.json" />
       <File FileName="Test_API/Test_API.csproj" />
       <File FileName="Test_API/Models/Villa.cs" />
@@ -27,23 +27,28 @@
       <File FileName="Test_API/Models/Dto/VillaUpdateDTO.cs" />
       <File FileName="Test_API/Repository/IRepository/IVillaRepository.cs" />
       <File FileName="Test_API/Repository/VillaRepository.cs" />
-      <File FileName="Test_API/Program.cs" Line="33" Column="4" />
+      <File FileName="Test_API/Program.cs" Line="114" Column="32" />
       <File FileName="Test_API/appsettings.json" />
       <File FileName="Test_API/Models/LocalUser.cs" />
       <File FileName="Test_API/Models/Dto/LoginRequestDTO.cs" />
       <File FileName="Test_API/Models/Dto/LoginResponseDTO.cs" />
       <File FileName="Test_API/Models/Dto/RegistrationRequestDTO.cs" />
       <File FileName="Test_API/Repository/UserRepository.cs" />
-      <File FileName="Test_API/Controllers/UserController.cs" Line="1" Column="1" />
-      <File FileName="Test_API/Models/APIResponse.cs" />
+      <File FileName="Test_API/Controllers/UserController.cs" Line="18" Column="23" />
+      <File FileName="Test_API/Models/APIResponse.cs" Line="1" Column="1" />
+      <File FileName="Test_API/Controllers/VillaNumberAPIControllerV2.cs" Line="42" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TestAPI">
-            <Node name="Test_API">
-              <Node name="Controllers">
-                <Node name="VillaNumberAPIController.cs" selected="True" />
+          <Node name="TestAPI" expanded="True">
+            <Node name="Test_API" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="V1" expanded="True" />
+                <Node name="V2" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Dto" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -51,5 +56,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
