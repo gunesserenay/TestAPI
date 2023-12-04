@@ -93,3 +93,9 @@
 /Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.Versioning.dll
 /Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/development1001/Projects/TestAPI/Test_API/bin/Debug/net7.0/Microsoft.Extensions.Options.dll

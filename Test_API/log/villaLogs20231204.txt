@@ -1,0 +1,366 @@
+2023-12-04 18:44:44.106 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-12-04 18:44:44.279 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-12-04 18:44:44.279 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-12-04 18:44:44.375 +03:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-12-04 18:44:44.385 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-12-04 18:44:44.385 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-12-04 18:44:44.474 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-12-04 18:46:03.907 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-12-04 18:46:04.080 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-12-04 18:46:04.081 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-12-04 18:46:04.175 +03:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: None
+2023-12-04 18:46:04.181 +03:00 [DBG] Creating DbConnection.
+2023-12-04 18:46:04.198 +03:00 [DBG] Created DbConnection. (15ms).
+2023-12-04 18:46:04.199 +03:00 [DBG] Migrating using database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.201 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.316 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.318 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.320 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2023-12-04 18:46:04.321 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2023-12-04 18:46:04.323 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-04 18:46:04.343 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-04 18:46:04.344 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.347 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (1ms).
+2023-12-04 18:46:04.348 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-12-04 18:46:04.348 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-12-04 18:46:04.348 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-12-04 18:46:04.348 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.349 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.349 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-04 18:46:04.356 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-04 18:46:04.356 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.356 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-12-04 18:46:04.357 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.357 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.357 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.357 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.357 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.357 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-04 18:46:04.358 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-04 18:46:04.359 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.359 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-12-04 18:46:04.359 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-12-04 18:46:04.359 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-12-04 18:46:04.359 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-12-04 18:46:04.359 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.359 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.359 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-04 18:46:04.360 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-04 18:46:04.360 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.360 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-12-04 18:46:04.364 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-04 18:46:04.364 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-04 18:46:04.364 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-12-04 18:46:04.364 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.364 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.365 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-12-04 18:46:04.367 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-12-04 18:46:04.368 +03:00 [DBG] Closing data reader to 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.369 +03:00 [DBG] A data reader for 'Test_VillaAPI' on server 'localhost' is being disposed after spending 0ms reading results.
+2023-12-04 18:46:04.369 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.369 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-12-04 18:46:04.372 +03:00 [INF] Applying migration '20231204154444_AddIdentityUserTable'.
+2023-12-04 18:46:04.400 +03:00 [DBG] Opening connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.400 +03:00 [DBG] Opened connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.400 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-12-04 18:46:04.406 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-12-04 18:46:04.406 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.406 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.407 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.407 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2023-12-04 18:46:04.420 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2023-12-04 18:46:04.421 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.421 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.421 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.421 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2023-12-04 18:46:04.426 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2023-12-04 18:46:04.426 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.426 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.426 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.426 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2023-12-04 18:46:04.429 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2023-12-04 18:46:04.429 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.429 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.429 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.429 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2023-12-04 18:46:04.431 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2023-12-04 18:46:04.431 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.431 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.431 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.431 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2023-12-04 18:46:04.434 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2023-12-04 18:46:04.434 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.434 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.434 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.434 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2023-12-04 18:46:04.436 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2023-12-04 18:46:04.437 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.437 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.437 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.437 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2023-12-04 18:46:04.438 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2023-12-04 18:46:04.439 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.439 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.439 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.439 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-12-04T18:44:44.3855040+03:00'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-12-04 18:46:04.442 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-12-04T18:44:44.3855040+03:00'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-12-04 18:46:04.442 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.442 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.442 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.442 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-12-04T18:44:44.3855060+03:00'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-12-04 18:46:04.443 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-12-04T18:44:44.3855060+03:00'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-12-04 18:46:04.443 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.443 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.443 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.443 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-12-04T18:44:44.3855070+03:00'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2023-12-04 18:46:04.444 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-12-04T18:44:44.3855070+03:00'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2023-12-04 18:46:04.444 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.444 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.444 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.444 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-12-04T18:44:44.3855070+03:00'
+WHERE [Id] = 4;
+SELECT @@ROWCOUNT;
+2023-12-04 18:46:04.445 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-12-04T18:44:44.3855070+03:00'
+WHERE [Id] = 4;
+SELECT @@ROWCOUNT;
+2023-12-04 18:46:04.445 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.445 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.445 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.445 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-12-04T18:44:44.3855070+03:00'
+WHERE [Id] = 5;
+SELECT @@ROWCOUNT;
+2023-12-04 18:46:04.446 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2023-12-04T18:44:44.3855070+03:00'
+WHERE [Id] = 5;
+SELECT @@ROWCOUNT;
+2023-12-04 18:46:04.446 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.446 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.446 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.446 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+2023-12-04 18:46:04.447 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+2023-12-04 18:46:04.447 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.447 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.447 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.447 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+2023-12-04 18:46:04.449 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+2023-12-04 18:46:04.449 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.449 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.449 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.449 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+2023-12-04 18:46:04.450 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+2023-12-04 18:46:04.450 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.450 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.450 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.450 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+2023-12-04 18:46:04.451 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+2023-12-04 18:46:04.451 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.451 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.451 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.451 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+2023-12-04 18:46:04.452 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+2023-12-04 18:46:04.452 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.452 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.452 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.452 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+2023-12-04 18:46:04.453 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+2023-12-04 18:46:04.453 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.453 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.453 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.453 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+2023-12-04 18:46:04.455 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+2023-12-04 18:46:04.455 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-04 18:46:04.455 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.455 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-04 18:46:04.455 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231204154444_AddIdentityUserTable', N'7.0.14');
+2023-12-04 18:46:04.457 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231204154444_AddIdentityUserTable', N'7.0.14');
+2023-12-04 18:46:04.457 +03:00 [DBG] Committing transaction.
+2023-12-04 18:46:04.461 +03:00 [DBG] Committed transaction.
+2023-12-04 18:46:04.461 +03:00 [DBG] Disposing transaction.
+2023-12-04 18:46:04.461 +03:00 [DBG] Closing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.461 +03:00 [DBG] Closed connection to database 'Test_VillaAPI' on server 'localhost' (0ms).
+2023-12-04 18:46:04.462 +03:00 [DBG] 'ApplicationDbContext' disposed.
+2023-12-04 18:46:04.462 +03:00 [DBG] Disposing connection to database 'Test_VillaAPI' on server 'localhost'.
+2023-12-04 18:46:04.462 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
