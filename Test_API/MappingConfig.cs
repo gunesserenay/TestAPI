@@ -20,7 +20,7 @@ namespace Test_API
             CreateMap<VillaNumber, VillaNumberDTO>().ReverseMap();
             CreateMap<VillaNumber, VillaNumberCreateDTO>().ReverseMap();
             CreateMap<VillaNumber, VillaNumberUpdateDTO>().ReverseMap();
-         //  CreateMap<ApplicationUser, UserDTO>().ReverseMap();
+           CreateMap<ApplicationUser, UserDTO>().ReverseMap();
 
 
         }
