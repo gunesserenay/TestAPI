@@ -81,20 +81,33 @@ namespace Test_API.Repository
             return loginResponseDTO;
         }
 
-        public async Task<LocalUser> Register(RegistrationRequestDTO registrationRequestDTO)
+        public async Task<UserDTO> Register(RegistrationRequestDTO registrationRequestDTO)
         {
-            LocalUser user = new()
+            ApplicationUser user = new()
             {
                 UserName = registrationRequestDTO.UserName,
-                Name = registrationRequestDTO.Name,
-                Password = registrationRequestDTO.Password,
-                Role = registrationRequestDTO.Role
+                Email = registrationRequestDTO.UserName,
+                NormalizedEmail = registrationRequestDTO.UserName.ToUpper(),
+                Name = registrationRequestDTO.Name
             };
 
-            _db.LocalUsers.Add(user);
-            await _db.SaveChangesAsync();
-            user.Password = "";
-            return user;
+            try
+            {
+                var result = await _userManager.CreateAsync(user, registrationRequestDTO.Password);
+
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(user, "admin");
+                    var userToReturn = _db.ApplicationUsers.FirstOrDefault(u => u.UserName == registrationRequestDTO.UserName);
+                    return _mapper.Map<UserDTO>(userToReturn);
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+           
+            return new UserDTO();
         }
     }
 }
